@@ -1,2 +1,1 @@
-# sbps-social-graphics
-rehub for public social sharing images
+# SBPS social graphics
