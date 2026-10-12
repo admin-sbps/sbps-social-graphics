@@ -1,0 +1,16 @@
+{
+  "template": "slate",
+  "eyebrow": "Squares Slate · College Saturday",
+  "title": "Saturday Boards",
+  "date_lines": ["Saturday", "Oct 17, 2026"],
+  "games": [
+    {"day": "Sat", "date": "10/17", "away": "Ohio State", "home": "Indiana", "time": "12:00 PM", "tv": "FOX", "tag": "Top 10", "feature": true},
+    {"day": "Sat", "date": "10/17", "away": "Florida", "home": "Texas", "time": "12:00 PM", "tv": "ABC"},
+    {"day": "Sat", "date": "10/17", "away": "Alabama", "home": "Tennessee", "time": "3:30 PM", "tv": "ABC", "note": "Third Saturday in October"},
+    {"day": "Sat", "date": "10/17", "away": "Penn State", "home": "Michigan", "time": "3:30 PM", "tv": "CBS"},
+    {"day": "Sat", "date": "10/17", "away": "Notre Dame", "home": "BYU", "time": "7:30 PM", "tv": "ABC"}
+  ],
+  "math": {"price": 10, "winner_label": "to the winners", "cause_label": "to your team"},
+  "cta": {"ask": "Start a free board", "url": "SuperBowlPoolSite.com"},
+  "footnote": "All times ET. Example pot only. You set the price."
+}

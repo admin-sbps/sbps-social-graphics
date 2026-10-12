@@ -1,0 +1,78 @@
+{
+  "template": "winners",
+  "eyebrow": "Final Score Squares",
+  "title": "Today's Winners",
+  "date_lines": [
+    "Sunday",
+    "Oct 4, 2026"
+  ],
+  "footnote": "Last digit of each team's final score",
+  "cta": {
+    "ask": "Raise money with squares",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "only_in": {
+    "cta": [
+      "9x16",
+      "2x3"
+    ]
+  },
+  "games": [
+    {
+      "label": "Final",
+      "away": "Jaguars",
+      "away_score": 22,
+      "home": "Bengals",
+      "home_score": 17
+    },
+    {
+      "label": "Final",
+      "away": "Cardinals",
+      "away_score": 24,
+      "home": "Giants",
+      "home_score": 36
+    },
+    {
+      "label": "Final",
+      "away": "Rams",
+      "away_score": 24,
+      "home": "Eagles",
+      "home_score": 20
+    },
+    {
+      "label": "Final",
+      "away": "Cowboys",
+      "away_score": 34,
+      "home": "Texans",
+      "home_score": 30
+    },
+    {
+      "label": "Final · London",
+      "away": "Colts",
+      "away_score": 30,
+      "home": "Commanders",
+      "home_score": 13
+    },
+    {
+      "label": "Final",
+      "away": "Jets",
+      "away_score": 12,
+      "home": "Bears",
+      "home_score": 23
+    },
+    {
+      "label": "Final",
+      "away": "Packers",
+      "away_score": 17,
+      "home": "Buccaneers",
+      "home_score": 14
+    },
+    {
+      "label": "Final",
+      "away": "Titans",
+      "away_score": 18,
+      "home": "Ravens",
+      "home_score": 24
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "template": "slate",
+  "eyebrow": "Squares Slate · NFL Week 6",
+  "title": "Pick Your Game",
+  "date_lines": ["Thu Oct 15", "to Mon Oct 19"],
+  "games": [
+    {"day": "Thu", "date": "10/15", "away": "Seahawks", "home": "Broncos", "time": "8:15 PM", "note": "Thursday Night", "tv": "Prime Video"},
+    {"day": "Sun", "date": "10/18", "away": "Jets", "home": "Patriots", "time": "1:00 PM", "tv": "CBS"},
+    {"day": "Sun", "date": "10/18", "away": "Chargers", "home": "Chiefs", "time": "4:25 PM", "tv": "CBS", "tag": "Best board", "feature": true},
+    {"day": "Sun", "date": "10/18", "away": "Bills", "home": "Raiders", "time": "4:25 PM", "tv": "CBS"},
+    {"day": "Sun", "date": "10/18", "away": "Cowboys", "home": "Packers", "time": "8:20 PM", "note": "Sunday Night", "tv": "NBC"},
+    {"day": "Mon", "date": "10/19", "away": "Commanders", "home": "49ers", "time": "8:15 PM", "note": "Monday Night", "tv": "ESPN"}
+  ],
+  "how": [
+    {"title": "Make a free board", "text": "100 squares for any game above."},
+    {"title": "Share the link", "text": "Supporters claim squares and pay you directly."},
+    {"title": "Last digits win", "text": "Half the pot to the winners, half to your team."}
+  ],
+  "cta": {"ask": "Start a free board", "url": "SuperBowlPoolSite.com"},
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

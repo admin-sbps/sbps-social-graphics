@@ -1,0 +1,12 @@
+{
+  "template": "winners",
+  "eyebrow": "Final Score Squares",
+  "title": "Today's Winners",
+  "date_lines": ["Sunday", "Oct 18, 2026"],
+  "footnote": "Last digit of each team's final score",
+  "cta": {"ask": "Raise money with squares", "url": "SuperBowlPoolSite.com"},
+  "only_in": {"cta": ["9x16", "2x3"]},
+  "games": [
+    {"label": "Final", "away": "Away team", "away_score": 0, "home": "Home team", "home_score": 0}
+  ]
+}
