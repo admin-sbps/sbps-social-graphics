@@ -27,10 +27,23 @@ Add `--formats 4x5` to render just one size.
   - `group_by_day` plus a `group` on each game adds day headings (used for Thanksgiving)
   - `tag` and `feature: true` highlight one game
   - `theme: "harvest"` adds a purple glow behind the title (used for Thanksgiving)
+- **feature**: one post, one message. A big title (`title`, or `title_lines`; "X at Y" lights up the "at"),
+  `facts` chips (day, kickoff, network), then any of: `board` (sample squares board with `top`/`side`
+  team names), `games` (same rows as slate), `steps` (big numbered how-to), `prices` (price guide with
+  pot and cause), `hook` (one line of copy), `cta`.
+- **artframe**: puts existing art (`art`, a file in `art/`) into the channel's frame without cropping it,
+  with a top band (`eyebrow`, `title`, `facts`) and a bottom band (`lines`, `cta`). Used to turn the 4:5
+  rivalry art into 2:3 pins and 9:16 TikTok slides.
+- A data file can set `formats` (e.g. `["2x3"]` for a pin) so it only renders the size its channel uses.
 - `only_in` limits a block to some formats, e.g. `{"how": ["9x16"]}` shows the steps only on the tall version.
 
 If text doesn't fit, game rows shrink automatically. If it still doesn't fit, the
 command prints a WARNING; drop a game or shorten a line.
+
+## Per-post graphics
+`data/posts/` holds one data file per scheduled post, named by post date (ET), channel and topic.
+Render them into the hosted `posts/` folder with:
+`python3 render.py data/posts/*.json --out ../posts`
 
 ## Rules baked in
 - Team names in plain type only. No logos, helmets or footage.

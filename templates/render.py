@@ -60,9 +60,20 @@ def font_css():
     return "\n".join(out)
 
 
+def embed_art(data):
+    # Artframe graphics wrap an existing picture; inline it so the page needs no files.
+    art = data.get("art")
+    if art and not art.startswith("data:"):
+        path = HERE / art
+        mime = "image/png" if path.suffix == ".png" else "image/jpeg"
+        data = dict(data, art=f"data:{mime};base64,{base64.b64encode(path.read_bytes()).decode()}")
+    return data
+
+
 def build_html(data, fmt, width, height):
     # Pinterest is 1000 wide; scale the 1080 design down so sizes stay consistent.
     zoom = width / 1080
+    data = embed_art(data)
     css = (HERE / "base.css").read_text()
     js = (HERE / "templates.js").read_text()
     return f"""<!doctype html><html><head><meta charset="utf-8">
@@ -81,10 +92,12 @@ def launch(p):
         return p.chromium.launch(executable_path=find_chrome())
 
 
-def render(data_path, formats, browser):
+def render(data_path, formats, browser, out_dir=None):
     data = json.loads(Path(data_path).read_text())
-    out_dir = HERE / "renders"
-    out_dir.mkdir(exist_ok=True)
+    # A data file can name its own formats, e.g. a Pinterest-only pin.
+    formats = formats or data.get("formats") or list(FORMATS)
+    out_dir = Path(out_dir) if out_dir else HERE / "renders"
+    out_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(data_path).stem
     for fmt in formats:
         width, height = FORMATS[fmt]
@@ -96,19 +109,20 @@ def render(data_path, formats, browser):
         warn = ""
         if page.title() == "OVERFLOW":
             warn = "  WARNING: content does not fit, shorten text or remove a game"
-        print(f"{out.relative_to(HERE)}{warn}")
+        print(f"{out}{warn}")
         page.close()
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("data", nargs="+", help="JSON data file(s)")
-    ap.add_argument("--formats", default="4x5,9x16,2x3")
+    ap.add_argument("--formats", help="comma list, default: the data file's formats or all")
+    ap.add_argument("--out", help="output folder, default renders/")
     args = ap.parse_args()
     with sync_playwright() as p:
         browser = launch(p)
         for d in args.data:
-            render(d, args.formats.split(","), browser)
+            render(d, args.formats.split(",") if args.formats else None, browser, args.out)
         browser.close()
 
 

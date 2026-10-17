@@ -173,3 +173,108 @@ body {
 .eyebrow, .head, .sub, .rule, .how, .math, .cta, .foot, .dayhead { flex: none; }
 .fmt-9x16 .row { max-height: 240px; }
 .fmt-9x16 .page, .fmt-2x3 .page { justify-content: safe center; }
+
+/* Feature: one matchup or idea per post */
+.ftitle {
+  flex: none; font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+  line-height: 0.92; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px;
+}
+.ftitle > div { white-space: nowrap; }
+.ftitle .at { color: var(--accent); font-weight: 700; font-size: 0.55em; margin: 0 0.25em; vertical-align: 0.3em; }
+.facts { flex: none; display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.fact {
+  font-weight: 700; font-size: 30px; letter-spacing: 1px; padding: 8px 18px; border-radius: 10px;
+  background: var(--card); border: 1.5px solid var(--card-line); color: var(--text);
+}
+.fact.first { background: var(--purple); border-color: var(--purple); color: var(--purple-ink); }
+.fbody { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 20px; }
+.hook { flex: none; font-size: 36px; line-height: 1.25; font-weight: 600; margin-top: 22px; color: #e2e4f5; }
+
+/* Sample squares board */
+.boardwrap { flex: 1; min-height: 0; display: flex; justify-content: center; align-items: stretch; }
+.board {
+  height: 100%; max-width: 100%; aspect-ratio: 1.08 / 1;
+  display: grid; grid-template-columns: 52px 1fr; grid-template-rows: 52px 1fr;
+}
+.btop, .bside span {
+  font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 36px;
+  text-transform: uppercase; letter-spacing: 3px; color: var(--accent); white-space: nowrap;
+}
+.btop { grid-column: 2; text-align: center; align-self: center; }
+.bside { grid-row: 2; display: flex; align-items: center; justify-content: center; overflow: visible; }
+.bside span { transform: rotate(-90deg); }
+.bgrid {
+  grid-column: 2; grid-row: 2; container-type: size;
+  display: grid; grid-template-columns: repeat(11, 1fr); grid-template-rows: repeat(11, 1fr); gap: 3px;
+}
+.bx {
+  display: flex; align-items: center; justify-content: center; border-radius: 4px;
+  font-weight: 700; text-transform: uppercase; overflow: hidden; white-space: nowrap;
+}
+.bx.corner { background: transparent; }
+.bx.dig {
+  background: var(--tile); font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+  font-size: 5.6cqh; color: var(--text);
+}
+.bx.dig.hot { background: var(--green); color: var(--green-ink); }
+.bx.sq { background: var(--card); color: #c9cbe8; font-size: 2.3cqh; letter-spacing: 0.5px; }
+.bx.sq.open { background: #11132b; }
+.bx.sq.lit { background: rgba(34, 197, 94, 0.22); color: #ffffff; }
+.bx.sq.win { background: var(--green); color: var(--green-ink); font-size: 2.1cqh; font-weight: 800; }
+
+/* Numbered steps (how it works) */
+.steps { flex: 1; display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.bigstep {
+  display: flex; gap: 24px; align-items: center; background: var(--card);
+  border: 1.5px solid var(--card-line); border-radius: 16px; padding: 22px 28px;
+}
+.bigstep .num {
+  flex: none; width: 76px; height: 76px; border-radius: 50%; background: var(--purple); color: #fff;
+  font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 50px;
+  display: flex; align-items: center; justify-content: center;
+}
+.bigstep .txt { font-size: 28px; line-height: 1.3; color: #e2e4f5; font-weight: 500; }
+.bigstep .txt b {
+  display: block; font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 46px;
+  text-transform: uppercase; color: #fff; line-height: 1.05; margin-bottom: 4px;
+}
+
+/* Price guide */
+.prices { flex: none; display: flex; flex-direction: column; gap: 12px; }
+.prices .ph, .prices .pr { display: grid; grid-template-columns: 1.3fr 1fr 1fr; align-items: center; }
+.prices .ph { font-weight: 700; font-size: 22px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); padding: 0 28px; }
+.prices .ph span:not(:first-child), .prices .pr span:not(:first-child) { text-align: right; }
+.prices .pr {
+  background: var(--card); border: 1.5px solid var(--card-line); border-radius: 16px; padding: 18px 28px;
+  font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 60px; line-height: 1;
+}
+.prices .pr.feature { border-color: var(--purple); box-shadow: 0 0 0 1.5px var(--purple) inset; }
+.prices .pp small { display: block; font-family: "Barlow", sans-serif; font-weight: 600; font-size: 22px; color: var(--muted); letter-spacing: 1px; margin-top: 6px; text-transform: none; }
+.prices .pc { color: var(--accent); }
+
+/* Artframe: existing art in the channel's frame */
+.page:has(.aart) { padding: 0; }
+.aband { flex: none; padding: 40px var(--pad-x); }
+.aband.top { padding-top: var(--art-top, 44px); padding-bottom: 28px; }
+.atitle {
+  font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: var(--atitle, 76px);
+  line-height: 0.95; text-transform: uppercase; margin-top: 6px; white-space: nowrap;
+}
+.aband .facts { margin-top: 16px; }
+.aband .fact { font-size: 26px; padding: 6px 14px; }
+/* The whole picture always shows; a blurred copy fills any spare width. */
+.aart { flex: 1; min-height: 0; position: relative; overflow: hidden; background: #000; }
+.aart img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.aart img.blur { object-fit: cover; filter: blur(28px) brightness(0.55); transform: scale(1.15); }
+.aart img.main { object-fit: contain; }
+.aband.bottom { display: flex; flex-direction: column; gap: 16px; padding-top: 26px; padding-bottom: var(--art-bottom, 40px); }
+.alines { display: flex; flex-direction: column; gap: 4px; }
+.aline { font-size: 26px; font-weight: 600; color: var(--muted); letter-spacing: 0.5px; }
+.apill {
+  background: var(--green); color: var(--green-ink); border-radius: 14px; padding: 18px 26px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.apill span { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 40px; text-transform: uppercase; line-height: 1; }
+.apill b { font-size: 30px; font-weight: 700; }
+.fmt-9x16 { --art-top: 190px; --art-bottom: 260px; }
+.fmt-2x3 .prices .pr, .fmt-9x16 .prices .pr { padding: 30px 28px; font-size: 76px; }

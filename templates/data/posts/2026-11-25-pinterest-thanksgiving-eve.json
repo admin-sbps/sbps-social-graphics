@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/baltimore.jpg",
+  "eyebrow": "Thanksgiving Eve",
+  "title": "Packers at Rams tonight",
+  "facts": [
+    "8:00 PM ET",
+    "Netflix"
+  ],
+  "lines": [
+    "Tomorrow morning: Baltimore's Turkey Bowl, then the pros till midnight"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}
