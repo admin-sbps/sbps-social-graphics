@@ -51,7 +51,7 @@
         </div>`;
     }).join("");
     return `${header()}
-      <div class="grid" style="grid-template-columns:repeat(${cols},1fr);grid-template-rows:repeat(${rows},1fr)">${cards}</div>
+      <div class="grid${cols === 3 ? " dense" : ""}" style="grid-template-columns:repeat(${cols},minmax(0,1fr));grid-template-rows:repeat(${rows},1fr)">${cards}</div>
       ${cta()}${footer()}`;
   }
 

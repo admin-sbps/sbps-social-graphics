@@ -82,6 +82,14 @@ body {
 }
 .game-top .label { color: var(--accent); font-weight: 700; letter-spacing: 3px; text-transform: uppercase; white-space: nowrap; }
 .game-top .line { color: var(--muted); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Three-column boards (11+ games): stack the label over the score line */
+.grid.dense { gap: 18px; }
+.grid.dense .game { padding: 14px 16px 16px; }
+.grid.dense .game-top { flex-direction: column; align-items: flex-start; gap: 2px; font-size: 19px; margin-bottom: 10px; }
+.grid.dense .game-top .label { letter-spacing: 2px; }
+.grid.dense .game-top .line { max-width: 100%; }
+.grid.dense .tiles { gap: 10px; }
+.grid.dense .tile .team { letter-spacing: 1.5px; }
 .tiles { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; min-height: 0; }
 .tile {
   background: var(--tile); border-radius: 12px; container-type: size;

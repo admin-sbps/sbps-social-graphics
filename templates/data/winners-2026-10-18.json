@@ -1,0 +1,106 @@
+{
+  "template": "winners",
+  "eyebrow": "Final Score Squares",
+  "title": "Today's Winners",
+  "date_lines": [
+    "Sunday",
+    "Oct 18, 2026"
+  ],
+  "footnote": "Last digit of each team's final score",
+  "cta": {
+    "ask": "Raise money with squares",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "only_in": {
+    "cta": [
+      "9x16",
+      "2x3"
+    ]
+  },
+  "games": [
+    {
+      "label": "Final \u00b7 London",
+      "away": "Texans",
+      "away_score": 34,
+      "home": "Jaguars",
+      "home_score": 31
+    },
+    {
+      "label": "Final",
+      "away": "Bears",
+      "away_score": 31,
+      "home": "Falcons",
+      "home_score": 23
+    },
+    {
+      "label": "Final",
+      "away": "Ravens",
+      "away_score": 10,
+      "home": "Browns",
+      "home_score": 13
+    },
+    {
+      "label": "Final",
+      "away": "Titans",
+      "away_score": 26,
+      "home": "Colts",
+      "home_score": 20
+    },
+    {
+      "label": "Final",
+      "away": "Jets",
+      "away_score": 19,
+      "home": "Patriots",
+      "home_score": 26
+    },
+    {
+      "label": "Final",
+      "away": "Saints",
+      "away_score": 34,
+      "home": "Giants",
+      "home_score": 27
+    },
+    {
+      "label": "Final",
+      "away": "Panthers",
+      "away_score": 25,
+      "home": "Eagles",
+      "home_score": 14
+    },
+    {
+      "label": "Final \u00b7 OT",
+      "away": "Steelers",
+      "away_score": 26,
+      "home": "Buccaneers",
+      "home_score": 19
+    },
+    {
+      "label": "Final",
+      "away": "Cardinals",
+      "away_score": 18,
+      "home": "Rams",
+      "home_score": 16
+    },
+    {
+      "label": "Final",
+      "away": "Chargers",
+      "away_score": 6,
+      "home": "Chiefs",
+      "home_score": 22
+    },
+    {
+      "label": "Final",
+      "away": "Bills",
+      "away_score": 33,
+      "home": "Raiders",
+      "home_score": 30
+    },
+    {
+      "label": "Final",
+      "away": "Cowboys",
+      "away_score": 13,
+      "home": "Packers",
+      "home_score": 23
+    }
+  ]
+}
