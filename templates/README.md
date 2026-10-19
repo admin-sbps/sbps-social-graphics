@@ -15,6 +15,7 @@ file, run one command, get PNGs for every channel.
 | 4x5 | 1080x1350 | Instagram and Facebook feed |
 | 9x16 | 1080x1920 | Stories, Reels covers, TikTok photo posts (content kept out of the button zones) |
 | 2x3 | 1000x1500 | Pinterest |
+| 16x9 | 1600x900 | X (two-column layout: title and facts left, games or steps right) |
 
 Add `--formats 4x5` to render just one size.
 
