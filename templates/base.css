@@ -278,3 +278,36 @@ body {
 .apill b { font-size: 30px; font-weight: 700; }
 .fmt-9x16 { --art-top: 190px; --art-bottom: 260px; }
 .fmt-2x3 .prices .pr, .fmt-9x16 .prices .pr { padding: 30px 28px; font-size: 76px; }
+
+/* X (16:9, 1600x900): headline and call to action on the left, the board,
+   games or steps on the right. */
+.fmt-16x9 { --pad-x: 56px; --pad-top: 52px; --pad-bottom: 40px; }
+.fmt-16x9 .page {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px;
+  grid-template-rows: auto auto auto auto 1fr auto auto;
+  grid-template-areas: "eye body" "title body" "facts body" "rule body" "hook body" "cta body" "foot body";
+}
+.fmt-16x9 .eyebrow { grid-area: eye; font-size: 26px; }
+.fmt-16x9 .ftitle { grid-area: title; }
+.fmt-16x9 .facts { grid-area: facts; }
+.fmt-16x9 .fact { font-size: 26px; padding: 6px 14px; }
+.fmt-16x9 .rule { grid-area: rule; margin: 24px 0 0; }
+.fmt-16x9 .fbody { grid-area: body; min-height: 0; }
+.fmt-16x9 .hook { grid-area: hook; align-self: center; font-size: 32px; margin-top: 0; }
+.fmt-16x9 .cta { grid-area: cta; flex-direction: column; align-items: flex-start; gap: 6px; padding: 20px 26px; }
+.fmt-16x9 .cta .ask { font-size: 40px; }
+.fmt-16x9 .cta .url { text-align: left; font-size: 28px; }
+.fmt-16x9 .foot { grid-area: foot; margin-top: 16px; font-size: 22px; }
+.fmt-16x9 .list { flex: 1; justify-content: center; }
+.fmt-16x9 .row { max-height: 150px; }
+.fmt-16x9 .bigstep { padding: 18px 24px; }
+.fmt-16x9 .bigstep .num { width: 64px; height: 64px; font-size: 42px; }
+.fmt-16x9 .bigstep .txt b { font-size: 38px; }
+.fmt-16x9 .bigstep .txt { font-size: 24px; }
+.fmt-16x9 .prices { flex: 1; justify-content: center; }
+.fmt-16x9 .board { aspect-ratio: 1.08 / 1; }
+.fmt-16x9 .ftitle, .fmt-16x9 .fbody { min-width: 0; }
+.fmt-16x9 .row { grid-template-columns: 120px 1fr auto; gap: 20px; padding-right: 24px; }
+.fmt-16x9 .row .time { white-space: nowrap; }
+.fmt-16x9 .row .match { white-space: nowrap; }
+.fmt-16x9 .row .match { font-size: calc(46px * var(--s)); }

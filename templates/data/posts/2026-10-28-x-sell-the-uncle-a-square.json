@@ -1,0 +1,27 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving squares",
+  "title_lines": [
+    "Sell your uncle",
+    "a square"
+  ],
+  "facts": [
+    "Thu Nov 26",
+    "3 NFL games"
+  ],
+  "board": {
+    "top": "Cowboys",
+    "side": "Eagles",
+    "win_label": "Uncle"
+  },
+  "hook": "Now he has a reason to yell at the TV, and your team gets half the pot.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

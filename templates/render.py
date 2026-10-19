@@ -26,7 +26,11 @@ FORMATS = {
     "4x5": (1080, 1350),   # Instagram and Facebook feed
     "9x16": (1080, 1920),  # Stories, Reels, TikTok
     "2x3": (1000, 1500),   # Pinterest
+    "16x9": (1600, 900),   # X (Twitter) in-feed image
 }
+# Design width in CSS pixels. Portrait formats are laid out at 1080 and
+# scaled; the landscape X card has its own two-column layout at 1600.
+DESIGN_WIDTH = {"16x9": 1600}
 FONTS = [
     ("Barlow", 500), ("Barlow", 600), ("Barlow", 700),
     ("Barlow Condensed", 600), ("Barlow Condensed", 700), ("Barlow Condensed", 800),
@@ -72,13 +76,13 @@ def embed_art(data):
 
 def build_html(data, fmt, width, height):
     # Pinterest is 1000 wide; scale the 1080 design down so sizes stay consistent.
-    zoom = width / 1080
+    zoom = width / DESIGN_WIDTH.get(fmt, 1080)
     data = embed_art(data)
     css = (HERE / "base.css").read_text()
     js = (HERE / "templates.js").read_text()
     return f"""<!doctype html><html><head><meta charset="utf-8">
 <style>{font_css()}\n{css}\nhtml{{zoom:{zoom}}}
-.page{{width:1080px;height:{round(height / zoom)}px}}</style></head>
+.page{{width:{round(width / zoom)}px;height:{round(height / zoom)}px}}</style></head>
 <body><div class="page" id="page"></div>
 <script>window.DATA = {json.dumps(data)}; window.FORMAT = "{fmt}";</script>
 <script>{js}</script></body></html>"""

@@ -1,0 +1,34 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Tournament weekend tip",
+  "title_lines": [
+    "Tape your board",
+    "to the snack table"
+  ],
+  "facts": [
+    "Youth sports"
+  ],
+  "steps": [
+    {
+      "title": "Make a QR code",
+      "text": "Point it at your board link."
+    },
+    {
+      "title": "Print and tape it",
+      "text": "Concession table or bleachers."
+    },
+    {
+      "title": "Parents scan",
+      "text": "Pick a square, done."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

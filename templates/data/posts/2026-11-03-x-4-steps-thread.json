@@ -1,0 +1,39 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "For the team parent who got volunteered",
+  "title_lines": [
+    "Your first squares",
+    "fundraiser"
+  ],
+  "facts": [
+    "4 steps",
+    "Free"
+  ],
+  "steps": [
+    {
+      "title": "Create",
+      "text": "Pick a Thanksgiving game, or all of them."
+    },
+    {
+      "title": "Settings",
+      "text": "100 squares, set your price."
+    },
+    {
+      "title": "Invite",
+      "text": "Share the link in the team chat."
+    },
+    {
+      "title": "Enjoy",
+      "text": "Numbers get drawn and you pay the winner."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

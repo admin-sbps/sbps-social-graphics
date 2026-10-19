@@ -225,7 +225,7 @@
   // Feature titles: as big as fits the width, on as few lines as possible.
   const ft = page.querySelector(".ftitle");
   if (ft) {
-    let fs = D.title_size || 150;
+    let fs = D.title_size || (FMT === "16x9" ? 120 : 150);
     ft.style.fontSize = fs + "px";
     while ([...ft.children].some((c) => c.scrollWidth > ft.clientWidth + 1) && fs > 60) {
       fs -= 4;

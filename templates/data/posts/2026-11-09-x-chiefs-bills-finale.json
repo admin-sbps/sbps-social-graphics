@@ -1,0 +1,24 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving night finale",
+  "title": "Chiefs at Bills",
+  "facts": [
+    "Thu Nov 26",
+    "8:20 PM ET",
+    "NBC"
+  ],
+  "board": {
+    "top": "Bills",
+    "side": "Chiefs"
+  },
+  "hook": "Bills at Vikings tonight. Build the primetime finale board now.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
