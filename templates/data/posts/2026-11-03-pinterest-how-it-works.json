@@ -1,0 +1,34 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "eyebrow": "Thanksgiving squares",
+  "title_lines": [
+    "How a squares",
+    "board works"
+  ],
+  "steps": [
+    {
+      "title": "Create",
+      "text": "Pick a Thanksgiving game, or all of them."
+    },
+    {
+      "title": "Settings",
+      "text": "Choose 100, 50 or 25 squares and set your price."
+    },
+    {
+      "title": "Invite",
+      "text": "Share one link with your team, family or supporters."
+    },
+    {
+      "title": "Enjoy",
+      "text": "Numbers get drawn and the grid tracks winners by quarter."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

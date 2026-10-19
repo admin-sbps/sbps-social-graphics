@@ -1,0 +1,26 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Example: 12U softball",
+  "title_lines": [
+    "$2,000 board,",
+    "$1,000 for the trip"
+  ],
+  "facts": [
+    "Thanksgiving night",
+    "$20 a square"
+  ],
+  "board": {
+    "top": "Bills",
+    "side": "Chiefs"
+  },
+  "hook": "100 squares at $20 on Chiefs at Bills. $1,000 to the winner, $1,000 toward the tournament trip.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Example pot. Free to create. We never touch the money."
+}

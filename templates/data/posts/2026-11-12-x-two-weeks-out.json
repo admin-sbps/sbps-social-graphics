@@ -1,0 +1,58 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Two weeks to Thanksgiving",
+  "title_lines": [
+    "Set it up",
+    "tonight"
+  ],
+  "facts": [
+    "Thu Nov 12"
+  ],
+  "games": [
+    {
+      "day": "Thu",
+      "date": "11/12",
+      "away": "Commanders",
+      "home": "Giants",
+      "time": "8:15 PM",
+      "tv": "Prime Video",
+      "tag": "Tonight"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS",
+      "tag": "Thanksgiving"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX",
+      "tag": "Thanksgiving"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Chiefs",
+      "home": "Bills",
+      "time": "8:20 PM",
+      "tv": "NBC",
+      "tag": "Thanksgiving"
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

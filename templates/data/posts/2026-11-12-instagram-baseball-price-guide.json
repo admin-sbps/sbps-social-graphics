@@ -1,0 +1,33 @@
+{
+  "template": "feature",
+  "formats": [
+    "4x5"
+  ],
+  "eyebrow": "Baseball parents \u00b7 Save this",
+  "title_lines": [
+    "What to charge",
+    "per square"
+  ],
+  "prices": [
+    {
+      "price": 5,
+      "who": "Family and friends"
+    },
+    {
+      "price": 10,
+      "who": "Team fundraiser",
+      "feature": true
+    },
+    {
+      "price": 20,
+      "who": "The office"
+    }
+  ],
+  "prices_cause": "To the team",
+  "hook": "100 squares at $10: $500 to the winner, $500 toward tournament fees, uniforms or the Cooperstown fund.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Example pots. You collect the money your own way."
+}

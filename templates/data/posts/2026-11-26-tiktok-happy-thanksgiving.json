@@ -1,0 +1,21 @@
+{
+  "template": "artframe",
+  "formats": [
+    "9x16"
+  ],
+  "art": "art/wellesley-needham.jpg",
+  "eyebrow": "Happy Thanksgiving",
+  "title": "Eagles at Cowboys next",
+  "facts": [
+    "4:30 PM ET",
+    "FOX"
+  ],
+  "lines": [
+    "Wellesley and Needham played game 139 this morning",
+    "Tonight: Chiefs at Bills, 8:20 PM ET, NBC"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

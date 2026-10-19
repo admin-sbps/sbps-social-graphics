@@ -1,0 +1,27 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Clocks fell back an hour",
+  "title_lines": [
+    "25 days to",
+    "Thanksgiving"
+  ],
+  "facts": [
+    "Thu Nov 26",
+    "3+ weeks to sell"
+  ],
+  "board": {
+    "top": "Cowboys",
+    "side": "Eagles",
+    "filled": 0.35
+  },
+  "hook": "Use the extra hour. A board started today has three weeks to sell all 100 squares.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

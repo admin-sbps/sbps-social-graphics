@@ -1,0 +1,40 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Monday Night Football \u00b7 Tonight",
+  "title": "Bears week",
+  "facts": [
+    "Tonight",
+    "Thanksgiving"
+  ],
+  "games": [
+    {
+      "day": "Mon",
+      "date": "11/2",
+      "away": "Bears",
+      "home": "Seahawks",
+      "time": "8:15 PM",
+      "tv": "ESPN",
+      "tag": "Tonight"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS",
+      "tag": "Thanksgiving",
+      "feature": true
+    }
+  ],
+  "hook": "The early Thanksgiving game is the one the whole house watches before dinner.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}
