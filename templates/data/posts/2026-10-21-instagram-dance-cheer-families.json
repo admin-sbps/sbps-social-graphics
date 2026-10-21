@@ -1,0 +1,17 @@
+{
+  "template": "feature",
+  "formats": ["4x5"],
+  "group_by_day": false,
+  "eyebrow": "Dance and cheer families",
+  "title_lines": ["Competition fees", "are no joke"],
+  "facts": ["Thanksgiving Day", "100 squares"],
+  "prices": [
+    {"price": 5, "who": "Family and friends"},
+    {"price": 10, "who": "Studio fundraiser", "feature": true},
+    {"price": 20, "who": "Office or alumni"}
+  ],
+  "prices_cause": "To the studio",
+  "hook": "No cookie dough. Grandpa will happily buy five squares.",
+  "cta": {"ask": "Start your Thanksgiving board", "url": "SuperBowlPoolSite.com/thx"},
+  "footnote": "Example pots. Free to create. We never touch the money."
+}
