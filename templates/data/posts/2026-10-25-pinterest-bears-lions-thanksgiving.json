@@ -1,0 +1,24 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving in Detroit",
+  "title": "Bears at Lions",
+  "facts": [
+    "Thu Nov 26",
+    "1:00 PM ET",
+    "CBS"
+  ],
+  "board": {
+    "top": "Lions",
+    "side": "Bears"
+  },
+  "hook": "The first game of Thanksgiving Day. Start your board now and give your group a month to sell.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
