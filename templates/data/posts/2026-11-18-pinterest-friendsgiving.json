@@ -1,0 +1,66 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "eyebrow": "Hosting Friendsgiving?",
+  "title": "Friendsgiving Squares",
+  "facts": [
+    "Free 100 square board",
+    "1 game or all 5"
+  ],
+  "group_by_day": true,
+  "games": [
+    {
+      "group": "Thanksgiving Eve",
+      "day": "Wed",
+      "date": "11/25",
+      "away": "Packers",
+      "home": "Rams",
+      "time": "8:00 PM",
+      "tv": "Netflix"
+    },
+    {
+      "group": "Thanksgiving Day",
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS"
+    },
+    {
+      "group": "Thanksgiving Day",
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX"
+    },
+    {
+      "group": "Thanksgiving Day",
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Chiefs",
+      "home": "Bills",
+      "time": "8:20 PM",
+      "tv": "NBC"
+    },
+    {
+      "group": "Black Friday",
+      "day": "Fri",
+      "date": "11/27",
+      "away": "Broncos",
+      "home": "Steelers",
+      "time": "3:00 PM",
+      "tv": "Prime Video"
+    }
+  ],
+  "hook": "Something to cheer for while the food cooks. Keep it for fun or raise money for a cause.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

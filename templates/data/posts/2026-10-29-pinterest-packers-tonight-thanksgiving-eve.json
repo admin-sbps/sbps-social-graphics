@@ -1,0 +1,42 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Packers fans",
+  "title_lines": [
+    "Thursday now,",
+    "Thanksgiving Eve next"
+  ],
+  "facts": [
+    "2 Packers games"
+  ],
+  "games": [
+    {
+      "day": "Thu",
+      "date": "10/29",
+      "away": "Panthers",
+      "home": "Packers",
+      "time": "8:15 PM",
+      "tv": "Prime Video",
+      "tag": "Practice board"
+    },
+    {
+      "day": "Wed",
+      "date": "11/25",
+      "away": "Packers",
+      "home": "Rams",
+      "time": "8:00 PM",
+      "tv": "Netflix",
+      "tag": "Thanksgiving Eve",
+      "feature": true
+    }
+  ],
+  "hook": "Make tonight your practice board, then set up the Wednesday night contest for your team.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

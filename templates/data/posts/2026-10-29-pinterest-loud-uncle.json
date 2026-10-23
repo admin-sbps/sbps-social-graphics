@@ -1,0 +1,12 @@
+{
+  "template": "feature",
+  "formats": ["2x3"],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving family game",
+  "title_lines": ["Give the loud uncle", "a square"],
+  "facts": ["Thu Nov 26", "3 NFL games"],
+  "board": {"top": "Cowboys", "side": "Eagles", "win_label": "Uncle"},
+  "hook": "The kids check the grid at every score, and half the pot can go to a cause.",
+  "cta": {"ask": "Start your Thanksgiving board", "url": "SuperBowlPoolSite.com/thx"},
+  "footnote": "Free to create. We never touch the money."
+}

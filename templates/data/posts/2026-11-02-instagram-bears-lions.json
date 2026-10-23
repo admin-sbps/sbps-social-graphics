@@ -1,0 +1,23 @@
+{
+  "template": "feature",
+  "formats": [
+    "4x5"
+  ],
+  "eyebrow": "Thanksgiving opener",
+  "title": "Bears at Lions",
+  "facts": [
+    "Thu Nov 26",
+    "1:00 PM ET",
+    "CBS"
+  ],
+  "board": {
+    "top": "Lions",
+    "side": "Bears"
+  },
+  "hook": "Tonight the Bears are in Seattle. On Thanksgiving they open the day in Detroit. Sell your squares this month.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

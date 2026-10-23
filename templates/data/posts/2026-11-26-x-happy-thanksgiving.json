@@ -1,0 +1,47 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Happy Thanksgiving",
+  "title_lines": [
+    "Thank you,",
+    "teams and clubs"
+  ],
+  "facts": [
+    "Thu Nov 26"
+  ],
+  "games": [
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Chiefs",
+      "home": "Bills",
+      "time": "8:20 PM",
+      "tv": "NBC"
+    }
+  ],
+  "hook": "Thank you to every team, club and charity that ran a board this year.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

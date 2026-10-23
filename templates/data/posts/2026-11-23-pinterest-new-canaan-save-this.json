@@ -1,0 +1,22 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/new-canaan.jpg",
+  "eyebrow": "Save this \u00b7 Thanksgiving 2026",
+  "title": "New Canaan vs Darien",
+  "facts": [
+    "Thu morning",
+    "Turkey Bowl"
+  ],
+  "lines": [
+    "Wed 8:00 PM: Packers at Rams, Netflix",
+    "Thu 1:00 Bears at Lions, CBS \u00b7 4:30 Eagles at Cowboys, FOX",
+    "Thu 8:20 PM: Chiefs at Bills, NBC \u00b7 Fri 3:00 PM: Broncos at Steelers, Prime"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

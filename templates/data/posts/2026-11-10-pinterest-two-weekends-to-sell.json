@@ -1,0 +1,12 @@
+{
+  "template": "feature",
+  "formats": ["2x3"],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving squares fundraiser",
+  "title_lines": ["Two full weekends", "to sell your squares"],
+  "facts": ["Thu Nov 26"],
+  "board": {"top": "Lions", "side": "Bears", "filled": 0.5},
+  "hook": "Practices, games and family dinners. Post an update when you hit half full.",
+  "cta": {"ask": "Start your Thanksgiving board", "url": "SuperBowlPoolSite.com/thx"},
+  "footnote": "Free to create. We never touch the money."
+}

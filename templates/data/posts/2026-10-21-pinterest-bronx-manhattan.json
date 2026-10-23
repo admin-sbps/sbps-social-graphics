@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/bronx-manhattan.jpg",
+  "eyebrow": "Thanksgiving morning \u00b7 New York City",
+  "title": "Fordham Prep vs Xavier",
+  "facts": [
+    "Thu Nov 26",
+    "Bronx vs Manhattan"
+  ],
+  "lines": [
+    "A tradition your parents association or youth team can raise money with"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

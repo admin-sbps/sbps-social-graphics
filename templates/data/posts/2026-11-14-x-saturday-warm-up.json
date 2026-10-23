@@ -1,0 +1,47 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "College football \u00b7 Sat Nov 14",
+  "title_lines": [
+    "Saturday",
+    "warm up"
+  ],
+  "facts": [
+    "Practice for Thanksgiving"
+  ],
+  "games": [
+    {
+      "day": "Sat",
+      "date": "11/14",
+      "away": "Texas",
+      "home": "LSU",
+      "time": "",
+      "tv": ""
+    },
+    {
+      "day": "Sat",
+      "date": "11/14",
+      "away": "Michigan",
+      "home": "Oregon",
+      "time": "",
+      "tv": ""
+    },
+    {
+      "day": "Sat",
+      "date": "11/14",
+      "away": "USC",
+      "home": "Indiana",
+      "time": "",
+      "tv": ""
+    }
+  ],
+  "hook": "Pick your game, make a free board for today, and use it as a warm up.",
+  "cta": {
+    "ask": "Make a free board",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

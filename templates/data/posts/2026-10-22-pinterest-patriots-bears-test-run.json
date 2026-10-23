@@ -1,0 +1,25 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thursday Night Football · Tonight",
+  "title": "Patriots at Bears",
+  "facts": [
+    "Thu Oct 22",
+    "8:15 PM ET",
+    "Prime Video"
+  ],
+  "board": {
+    "top": "Bears",
+    "side": "Patriots",
+    "filled": 0.3
+  },
+  "hook": "Run a small test board with five or six parents tonight. Then pitch the Thanksgiving fundraiser.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
