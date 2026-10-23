@@ -1,0 +1,85 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff4c522c31be02386270",
+    "caption": "Booster clubs and PTAs, Thanksgiving might be your easiest fundraiser of the year. Swipe for why.\n\nMake a free 100 square board, sell squares to parents and neighbors, and split the pot: half to the winner, half to the school.\n\nWe never touch the money. You run it your way. Link in bio.\n\nTag your PTA president.\n\n#PTA #BoosterClub #FundraisingIdeas #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Booster clubs and PTAs",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "Your easiest",
+        "fundraiser this year"
+      ],
+      "facts": [
+        "Thanksgiving Day"
+      ],
+      "board": {
+        "top": "Lions",
+        "side": "Bears",
+        "win_label": "PTA"
+      }
+    },
+    {
+      "title_lines": [
+        "Why Thanksgiving",
+        "works"
+      ],
+      "bullets": [
+        "Everyone's home",
+        "The TV is on from noon to midnight",
+        "Families want something to do between plates"
+      ]
+    },
+    {
+      "title_lines": [
+        "Nothing to",
+        "deliver"
+      ],
+      "bullets": [
+        "No order forms",
+        "No boxes in the garage",
+        "No cookie dough in the freezer",
+        "Just a link to share"
+      ]
+    },
+    {
+      "title_lines": [
+        "Three steps"
+      ],
+      "steps": [
+        {
+          "title": "Make a free board",
+          "text": "100 squares on a Thanksgiving game."
+        },
+        {
+          "title": "Sell the squares",
+          "text": "Parents and neighbors pick theirs."
+        },
+        {
+          "title": "Split the pot",
+          "text": "Half to the winner, half to the school."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Tag your",
+        "PTA president"
+      ],
+      "body": [
+        "We never touch the money. You run it your way."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

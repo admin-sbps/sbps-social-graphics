@@ -1,0 +1,110 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff25522c31be02385d37",
+    "caption": "No tricks this Halloween weekend. Just squares. Swipe for the weekend slate.\n\nGeorgia and Florida play in Atlanta Saturday afternoon. Chiefs at Broncos on Sunday. Plenty of football between the candy runs.\n\nRun a free board this weekend, then set up your Thanksgiving one while you're there. It's 4 weeks away.\n\nLink in bio. Who's dressing up as a referee?\n\n#Halloween #FootballSquares #FundraisingIdeas #CollegeFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Halloween weekend",
+    "footnote": "All times ET. Free to create."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "No tricks.",
+        "Just squares."
+      ],
+      "facts": [
+        "Oct 31 to Nov 1"
+      ],
+      "board": {
+        "top": "Florida",
+        "side": "Georgia",
+        "win_label": "Boo"
+      }
+    },
+    {
+      "title_lines": [
+        "The weekend",
+        "slate"
+      ],
+      "group_by_day": true,
+      "games": [
+        {
+          "day": "Sat",
+          "date": "10/31",
+          "away": "Georgia",
+          "home": "Florida",
+          "time": "3:30 PM",
+          "tv": "ABC",
+          "vs": true,
+          "group": "Saturday · In Atlanta"
+        },
+        {
+          "day": "Sun",
+          "date": "11/1",
+          "away": "Chiefs",
+          "home": "Broncos",
+          "time": "4:25 PM",
+          "tv": "CBS",
+          "group": "Sunday"
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Between the",
+        "candy runs"
+      ],
+      "chat": [
+        {
+          "from": "Mom",
+          "text": "Who has 7 and 3??"
+        },
+        {
+          "from": "Dad",
+          "text": "Me. Also we're out of candy.",
+          "me": true
+        },
+        {
+          "from": "Mom",
+          "text": "Turn the porch light off."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Then set up",
+        "Thanksgiving"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS",
+          "tag": "4 weeks away"
+        }
+      ],
+      "body": "Same setup. By then your group already knows how it works."
+    },
+    {
+      "title_lines": [
+        "Who's dressing up",
+        "as a referee?"
+      ],
+      "body": [
+        "Make a free board for this weekend's game, then start your Thanksgiving one while you're there."
+      ],
+      "cta": {
+        "ask": "Make a free board",
+        "url": "SuperBowlPoolSite.com/allTeams"
+      }
+    }
+  ]
+}

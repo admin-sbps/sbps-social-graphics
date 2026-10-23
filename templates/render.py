@@ -6,6 +6,8 @@ Usage:
     python3 render.py data/slate-nfl-week6.json --formats 4x5  # one format
 
 PNG files land in renders/<data file name>-<format>.png.
+A carousel file (one with "slides") renders one PNG per slide:
+renders/<data file name>-01-4x5.png, -02-4x5.png and so on.
 Needs Python 3 and Playwright:
     pip install playwright && playwright install chromium
 If Playwright's own browser is missing it falls back to an installed
@@ -65,12 +67,14 @@ def font_css():
 
 
 def embed_art(data):
-    # Artframe graphics wrap an existing picture; inline it so the page needs no files.
-    art = data.get("art")
-    if art and not art.startswith("data:"):
-        path = HERE / art
-        mime = "image/png" if path.suffix == ".png" else "image/jpeg"
-        data = dict(data, art=f"data:{mime};base64,{base64.b64encode(path.read_bytes()).decode()}")
+    # Artframe graphics wrap an existing picture, and story slides can show
+    # one as a "picture" block; inline them so the page needs no files.
+    for key in ("art", "picture"):
+        art = data.get(key)
+        if art and not art.startswith("data:"):
+            path = HERE / art
+            mime = "image/png" if path.suffix == ".png" else "image/jpeg"
+            data = dict(data, **{key: f"data:{mime};base64,{base64.b64encode(path.read_bytes()).decode()}"})
     return data
 
 
@@ -96,6 +100,31 @@ def launch(p):
         return p.chromium.launch(executable_path=find_chrome())
 
 
+def shoot(data, fmt, browser, out):
+    width, height = FORMATS[fmt]
+    page = browser.new_page(viewport={"width": width, "height": height})
+    page.set_content(build_html(data, fmt, width, height))
+    page.evaluate("document.fonts.ready")
+    page.screenshot(path=str(out))
+    warn = ""
+    if page.title() == "OVERFLOW":
+        warn = "  WARNING: content does not fit, shorten text or remove a game"
+    print(f"{out}{warn}")
+    page.close()
+
+
+def render_carousel(data, stem, formats, browser, out_dir):
+    # Every slide starts from the file's shared settings ("defaults") and
+    # knows its place in the set, so templates can draw the progress bar
+    # and the swipe cue.
+    slides = data["slides"]
+    shared = dict(data.get("defaults", {}))
+    for fmt in formats:
+        for i, slide in enumerate(slides, 1):
+            merged = {**shared, **slide, "slide": i, "of": len(slides)}
+            shoot(merged, fmt, browser, out_dir / f"{stem}-{i:02d}-{fmt}.png")
+
+
 def render(data_path, formats, browser, out_dir=None):
     data = json.loads(Path(data_path).read_text())
     # A data file can name its own formats, e.g. a Pinterest-only pin.
@@ -103,6 +132,9 @@ def render(data_path, formats, browser, out_dir=None):
     out_dir = Path(out_dir) if out_dir else HERE / "renders"
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = Path(data_path).stem
+    if data.get("slides"):
+        render_carousel(data, stem, formats, browser, out_dir)
+        return
     for fmt in formats:
         width, height = FORMATS[fmt]
         page = browser.new_page(viewport={"width": width, "height": height})

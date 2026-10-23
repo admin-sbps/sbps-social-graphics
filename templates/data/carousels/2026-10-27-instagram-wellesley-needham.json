@@ -1,0 +1,94 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6aad5eea5dd5c95d66daa66b",
+    "caption": "Thanksgiving is a month away, and in Wellesley and Needham that means game 139 is coming. Swipe to see how a booster club turns it into a fundraiser.\n\nMake a free 100 square board, type in Wellesley and Needham, and send the link to families and alumni. Half the pot goes to the winner and half goes to your group.\n\nFree to create, and we never touch the money. Link in bio.\n\nSave this and send it to your booster president.\n\n#Wellesley #Needham #WellesleyMA #NeedhamMA #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Wellesley vs Needham",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/wellesley-needham.jpg",
+      "eyebrow": "Thanksgiving morning",
+      "title": "Game 139 is a month away",
+      "facts": [
+        "Wellesley vs Needham",
+        "Thu Nov 26"
+      ]
+    },
+    {
+      "title_lines": [
+        "Both towns",
+        "will be watching"
+      ],
+      "body": [
+        "Families. Alumni. Grandparents who still go every year.",
+        "That is the easiest crowd there is to sell a square to."
+      ]
+    },
+    {
+      "title_lines": [
+        "So put the game",
+        "on a board"
+      ],
+      "facts": [
+        "100 squares",
+        "Type in both towns"
+      ],
+      "board": {
+        "top": "Needham",
+        "side": "Wellesley",
+        "win_label": "Boosters"
+      }
+    },
+    {
+      "eyebrow": "Example math",
+      "title_lines": [
+        "Half the pot",
+        "stays in town"
+      ],
+      "stat": [
+        {
+          "big": "$1,000",
+          "label": "100 squares at $10"
+        },
+        {
+          "big": "$500",
+          "label": "to your group"
+        }
+      ],
+      "body": "The other half goes to the winning square.",
+      "footnote": "Example pot. You collect and pay out your own way."
+    },
+    {
+      "title_lines": [
+        "Send this to your",
+        "booster president"
+      ],
+      "steps": [
+        {
+          "title": "Make the board",
+          "text": "Free, a few minutes."
+        },
+        {
+          "title": "Share with families and alumni",
+          "text": "They pick squares and pay you directly."
+        },
+        {
+          "title": "Pay the winner, keep half",
+          "text": "For the team, the band or the PTO."
+        }
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

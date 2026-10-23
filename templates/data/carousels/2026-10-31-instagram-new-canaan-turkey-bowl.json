@@ -1,0 +1,88 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff2aba9a2573f19593ff",
+    "caption": "The Turkey Bowl sells out in minutes. Your squares board never does. Swipe for the booster club version.\n\nNew Canaan and Darien booster clubs, teams and PTOs: Thanksgiving is less than four weeks away. A free 100 square board for the Turkey Bowl or the NFL games that follow is an easy one to sell to families and alumni. Half the pot goes to the winner, half to your group.\n\nHosting today? Georgia vs Florida is at 3:30 on ABC. Try a board on it first.\n\nLink in bio.\n\n#TurkeyBowl #NewCanaan #Darien #FootballSquares #CollegeFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "New Canaan vs Darien",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/new-canaan.jpg",
+      "eyebrow": "Turkey Bowl · New Canaan vs Darien",
+      "title": "Tickets sell out in minutes",
+      "facts": [
+        "Thu Nov 26",
+        "Under 4 weeks"
+      ]
+    },
+    {
+      "title_lines": [
+        "Your board",
+        "never does"
+      ],
+      "body": [
+        "A squares board has no ticket limit.",
+        "Families, alumni and grandparents out of state can all get in on the game."
+      ]
+    },
+    {
+      "title_lines": [
+        "Made for",
+        "booster clubs"
+      ],
+      "steps": [
+        {
+          "title": "Make a free board",
+          "text": "The Turkey Bowl or the NFL games after it."
+        },
+        {
+          "title": "Sell squares",
+          "text": "Families and alumni pick theirs."
+        },
+        {
+          "title": "Split the pot",
+          "text": "Half to the winner, half to your group."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Hosting today?",
+        "Try one first."
+      ],
+      "games": [
+        {
+          "day": "Sat",
+          "date": "10/31",
+          "away": "Georgia",
+          "home": "Florida",
+          "time": "3:30 PM",
+          "tv": "ABC",
+          "vs": true,
+          "note": "In Atlanta"
+        }
+      ],
+      "body": "Run a board on Georgia vs Florida this afternoon and see how your crowd likes it."
+    },
+    {
+      "title_lines": [
+        "Start the",
+        "Turkey Bowl board"
+      ],
+      "body": [
+        "Send it to your booster club today. Half the pot goes to your group."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

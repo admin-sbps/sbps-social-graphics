@@ -1,0 +1,130 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd12207eb16fd28e94024e",
+    "caption": "The best fundraiser for volleyball season doesn't happen in the gym. Swipe for the plan.\n\nMake a free 100 square board for a Thanksgiving game, or cover the whole holiday lineup in one setup, Wednesday night through Black Friday. Sell squares to families, grandparents and fans. Half the pot goes to the winner and half to tournament fees, uniforms or the nationals trip.\n\nLink in bio. Save this for your next parent meeting.\n\n#ClubVolleyball #VolleyballMom #TeamFundraiser #ThanksgivingFootball #FootballSquares"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Club volleyball",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "The best volleyball",
+        "fundraiser"
+      ],
+      "body": "doesn't happen in the gym.",
+      "board": {
+        "top": "Lions",
+        "side": "Bears",
+        "win_label": "Nationals"
+      }
+    },
+    {
+      "title_lines": [
+        "Club season",
+        "adds up"
+      ],
+      "bullets": [
+        "Tournament fees",
+        "Uniforms and warmups",
+        "Travel to qualifiers",
+        "The nationals trip"
+      ]
+    },
+    {
+      "title_lines": [
+        "One setup.",
+        "Five games."
+      ],
+      "games": [
+        {
+          "day": "Wed",
+          "date": "11/25",
+          "away": "Packers",
+          "home": "Rams",
+          "time": "8:00 PM",
+          "tv": "Netflix"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        },
+        {
+          "day": "Fri",
+          "date": "11/27",
+          "away": "Broncos",
+          "home": "Steelers",
+          "time": "3:00 PM",
+          "tv": "Prime Video"
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "How it works"
+      ],
+      "steps": [
+        {
+          "title": "Create your free board"
+        },
+        {
+          "title": "Pick your games and settings"
+        },
+        {
+          "title": "Share the link",
+          "text": "Families and fans claim squares."
+        },
+        {
+          "title": "Watch the games"
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Save this for the",
+        "parent meeting"
+      ],
+      "stat": [
+        {
+          "big": "$1,000",
+          "label": "100 squares at $10"
+        },
+        {
+          "big": "$500",
+          "label": "to the team"
+        }
+      ],
+      "body": "Half to the winner, half to the team, for example.",
+      "cta": {
+        "ask": "Make your free board",
+        "url": "SuperBowlPoolSite.com/football-squares-fundraiser"
+      },
+      "footnote": "Example pot. We never touch the money."
+    }
+  ]
+}

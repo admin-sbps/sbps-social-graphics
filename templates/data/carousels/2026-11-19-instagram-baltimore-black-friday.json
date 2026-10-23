@@ -1,0 +1,106 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd12abacb90f71c6d2b47e",
+    "caption": "106 Thanksgivings of the Turkey Bowl, and the football doesn't stop when it ends. Swipe through the long weekend.\n\nCalvert Hall vs Loyola Blakefield on Thursday morning. The pros play till midnight. Then Broncos at Steelers, Friday at 3 PM on Prime Video, for the folks who skip the stores.\n\nOne board for the morning game, one for the night, one for leftovers. Free to create, and it works great as a team or charity fundraiser.\n\nLink in bio. Shopping or football on Friday?\n\n#TurkeyBowl #Baltimore #BlackFridayFootball #FootballSquares #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Thanksgiving weekend",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/baltimore.jpg",
+      "eyebrow": "Baltimore · Thanksgiving weekend",
+      "title": "Football doesn't stop",
+      "facts": [
+        "Thu Nov 26",
+        "Fri Nov 27"
+      ]
+    },
+    {
+      "eyebrow": "Thursday morning",
+      "title_lines": [
+        "The Turkey",
+        "Bowl"
+      ],
+      "facts": [
+        "Calvert Hall vs Loyola Blakefield"
+      ],
+      "board": {
+        "top": "Loyola",
+        "side": "Calvert Hall",
+        "win_label": "Morning"
+      }
+    },
+    {
+      "eyebrow": "Thursday afternoon and night",
+      "title_lines": [
+        "The pros play",
+        "till midnight"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Black Friday",
+      "title_lines": [
+        "For the folks who",
+        "skip the stores"
+      ],
+      "games": [
+        {
+          "day": "Fri",
+          "date": "11/27",
+          "away": "Broncos",
+          "home": "Steelers",
+          "time": "3:00 PM",
+          "tv": "Prime Video",
+          "tag": "Leftovers game"
+        }
+      ],
+      "body": "Broncos at Steelers, 3 PM on Prime Video."
+    },
+    {
+      "title_lines": [
+        "Shopping or",
+        "football Friday?"
+      ],
+      "body": [
+        "One board for the morning, one for the night, one for leftovers. Each one works as a team or charity fundraiser."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

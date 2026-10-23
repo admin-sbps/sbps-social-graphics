@@ -28,9 +28,24 @@
     return `<div class="cta"><div class="ask">${esc(D.cta.ask)}</div><div class="url">${esc(D.cta.url)}</div></div>`;
   }
 
+  // Carousel slides (render.py sets slide and of) get a progress bar and,
+  // until the last slide, a cue to keep swiping.
+  const inCarousel = D.slide && D.of > 1;
+  const moreToCome = inCarousel && D.slide < D.of;
+  function progress() {
+    if (!inCarousel) return "";
+    let bars = "";
+    for (let i = 1; i <= D.of; i++) bars += `<i class="${i <= D.slide ? "on" : ""}"></i>`;
+    return `<div class="progress">${bars}</div>`;
+  }
+  function swipe() {
+    return `<span class="swipe">${esc(D.swipe || "Swipe")}<b>&rarr;</b></span>`;
+  }
+
   function footer() {
     // The call to action already shows the address, so skip it in the footer.
-    const site = cta() ? "" : `<span class="site">${esc(D.site || "SuperBowlPoolSite.com")}</span>`;
+    let site = cta() ? "" : `<span class="site">${esc(D.site || "SuperBowlPoolSite.com")}</span>`;
+    if (moreToCome) site = swipe();
     return `<div class="foot"><span>${esc(D.footnote || "")}</span>${site}</div>`;
   }
 
@@ -170,8 +185,24 @@
       </div>`;
     }
     if (D.board && shows("board")) body += board(D.board);
+    if (D.picture) body += `<div class="picture"><img src="${D.picture}"></div>`;
+    if (D.stat) {
+      body += `<div class="stats">${[].concat(D.stat).map((t) =>
+        `<div class="stat"><div class="big">${esc(t.big)}</div><div class="lbl">${esc(t.label)}</div></div>`).join("")}</div>`;
+    }
+    if (D.chat) {
+      body += `<div class="chat">${D.chat.map((m) => `
+        <div class="msg ${m.me ? "me" : ""}"><div class="who">${esc(m.from)}</div><div class="bubble">${esc(m.text)}</div></div>`).join("")}</div>`;
+    }
+    if (D.bullets) {
+      body += `<div class="bullets">${D.bullets.map((b) =>
+        `<div class="bullet"><span class="tick"></span><span>${esc(b)}</span></div>`).join("")}</div>`;
+    }
+    if (D.body) {
+      body += `<div class="story">${[].concat(D.body).map((t) => `<p>${esc(t)}</p>`).join("")}</div>`;
+    }
     const hook = D.hook ? `<div class="hook">${esc(D.hook)}</div>` : "";
-    return `
+    return `${progress()}
       <div class="eyebrow">${esc(D.eyebrow)}</div>
       <div class="ftitle">${title}</div>
       ${facts()}
@@ -184,7 +215,10 @@
   // for the channel, with a band that says what this post is about.
   function artframe() {
     const lines = (D.lines || []).map((l) => `<div class="aline">${esc(l)}</div>`).join("");
-    return `
+    const pill = moreToCome && !D.cta
+      ? `<div class="apill next"><span>${esc(D.swipe || "Swipe")}</span><b>&rarr;</b></div>`
+      : `<div class="apill"><span>${esc((D.cta || {}).ask || "Start a free board")}</span><b>${esc((D.cta || {}).url || "SuperBowlPoolSite.com")}</b></div>`;
+    return `${progress()}
       <div class="aband top">
         <div class="eyebrow">${esc(D.eyebrow)}</div>
         <div class="atitle">${esc(D.title)}</div>
@@ -193,12 +227,12 @@
       <div class="aart"><img class="blur" src="${D.art}"><img class="main" src="${D.art}"></div>
       <div class="aband bottom">
         ${lines ? `<div class="alines">${lines}</div>` : ""}
-        <div class="apill"><span>${esc((D.cta || {}).ask || "Start a free board")}</span><b>${esc((D.cta || {}).url || "SuperBowlPoolSite.com")}</b></div>
+        ${pill}
       </div>`;
   }
 
   const builders = { winners, slate, feature, artframe };
-  document.body.className = `fmt-${FMT} ${D.theme ? "theme-" + D.theme : ""}`;
+  document.body.className = `fmt-${FMT} ${D.theme ? "theme-" + D.theme : ""} ${inCarousel ? "carousel" : ""}`;
   document.getElementById("page").innerHTML = builders[D.template]();
 
   // Keep the title on one line beside the date, shrinking it if needed;
