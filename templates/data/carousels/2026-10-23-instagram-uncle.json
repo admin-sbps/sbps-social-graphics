@@ -1,0 +1,104 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff0f0e025935d3b82f25",
+    "caption": "Every family has the uncle who yells at the TV on Thanksgiving. Swipe to see what happens when you give him a square.\n\nOne 100 square board puts the whole house on the same team for the afternoon, and it can raise money for your kid's team while you're at it.\n\nFree at the link in bio. Tag the uncle. You know the one.\n\n#ThanksgivingFootball #FootballSquares #FamilyTraditions #SquaresPool"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Thanksgiving squares",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "Every family",
+        "has the uncle"
+      ],
+      "chat": [
+        {
+          "from": "Uncle Rob, 2nd quarter",
+          "text": "THAT'S HOLDING. REF!!"
+        },
+        {
+          "from": "Everyone else",
+          "text": "Rob, it's the pregame show.",
+          "me": true
+        }
+      ],
+      "body": "You know the one."
+    },
+    {
+      "title_lines": [
+        "This year,",
+        "give him a square"
+      ],
+      "facts": [
+        "Eagles at Cowboys",
+        "Thu Nov 26",
+        "4:30 PM ET"
+      ],
+      "board": {
+        "top": "Cowboys",
+        "side": "Eagles",
+        "win_label": "Uncle"
+      }
+    },
+    {
+      "title_lines": [
+        "Now the whole",
+        "house is in"
+      ],
+      "bullets": [
+        "Grandma takes a row",
+        "The cousins split five squares",
+        "The neighbors stop by for pie",
+        "The uncle has a reason to cheer"
+      ]
+    },
+    {
+      "eyebrow": "Example math",
+      "title_lines": [
+        "And your kid's",
+        "team gets half"
+      ],
+      "stat": [
+        {
+          "big": "$1,000",
+          "label": "100 squares at $10"
+        },
+        {
+          "big": "$500",
+          "label": "to the team"
+        }
+      ],
+      "body": "The other $500 goes to the winning square. Maybe even the uncle.",
+      "footnote": "Example pot. You collect and pay out your own way."
+    },
+    {
+      "title_lines": [
+        "Tag the uncle"
+      ],
+      "steps": [
+        {
+          "title": "Make a free board",
+          "text": "100 squares on any Thanksgiving game."
+        },
+        {
+          "title": "Send it to the family chat",
+          "text": "Everyone claims their squares."
+        },
+        {
+          "title": "Watch together",
+          "text": "Half to the winner, half to the team."
+        }
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

@@ -63,3 +63,19 @@ Fonts (Barlow and Barlow Condensed, open license) are in `fonts/`.
 - `thanksgiving-2026.json`: the five holiday games, linking SuperBowlPoolSite.com/thx
 
 Afternoon NFL times and networks come from `../schedule-2026.md` and can still change; check before posting.
+
+## Instagram carousels
+`data/carousels/` holds one file per scheduled Instagram post. Each file has a `slides` list
+(4x5 only) and the post's Buffer id and caption under `instagram`. Settings in `defaults`
+apply to every slide; a slide can override any of them, including `template` (use
+`artframe` with `art` for a rivalry art cover). Every slide gets a progress bar at the top,
+and every slide but the last gets a "Swipe" cue, so the set reads as one story:
+cover hook, the problem, the idea, the proof or math, then the ask.
+
+Extra blocks for story slides (feature template): `body` (one or more short paragraphs),
+`stat` (one or more big numbers with labels), `chat` (group chat bubbles, `me: true` for
+the right side), `bullets` (a checklist) and `picture` (a file in `art/`).
+
+Render them into the hosted `carousels/` folder with:
+`python3 render.py data/carousels/*.json --out ../carousels`
+Files come out as `<name>-01-4x5.png`, `-02-4x5.png` and so on, in slide order.

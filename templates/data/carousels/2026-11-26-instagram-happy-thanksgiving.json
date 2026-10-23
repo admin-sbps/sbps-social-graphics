@@ -1,0 +1,92 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd12ae7eb16fd28e94427e",
+    "caption": "Happy Thanksgiving from all of us at SuperBowlPoolSite.com.\n\nGood luck to New Canaan and Darien in the Turkey Bowl this morning, and to every school playing its own rivalry today.\n\nThank you to every team, club, school and charity that ran a board with us this year. Every square you sold helped someone.\n\nSwipe for today's games. Enjoy the food, the family and the football.\n\n#HappyThanksgiving #TurkeyBowl #NewCanaan #Darien #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Happy Thanksgiving",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/new-canaan.jpg",
+      "eyebrow": "From all of us at SuperBowlPoolSite.com",
+      "title": "Happy Thanksgiving"
+    },
+    {
+      "title_lines": [
+        "Good luck",
+        "this morning"
+      ],
+      "body": "To New Canaan and Darien in the Turkey Bowl, and to every school playing its own rivalry today."
+    },
+    {
+      "title_lines": [
+        "Thank you"
+      ],
+      "body": [
+        "To every team, club, school and charity that ran a board with us this year.",
+        "Every square you sold helped someone."
+      ]
+    },
+    {
+      "title_lines": [
+        "Today's",
+        "games"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Enjoy the food,",
+        "the family and",
+        "the football"
+      ],
+      "games": [
+        {
+          "day": "Fri",
+          "date": "11/27",
+          "away": "Broncos",
+          "home": "Steelers",
+          "time": "3:00 PM",
+          "tv": "Prime Video",
+          "tag": "Tomorrow"
+        }
+      ],
+      "cta": {
+        "ask": "Still time for a board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

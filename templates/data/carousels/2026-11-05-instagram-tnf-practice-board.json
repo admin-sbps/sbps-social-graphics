@@ -1,0 +1,77 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff42176c301054878aae",
+    "caption": "Tonight is practice. Thanksgiving is the real thing. Swipe for the test run plan.\n\nJaguars at Ravens is on Prime tonight. Set up a free squares board, see how your group likes it, then roll it out for the Turkey Bowl or the NFL games on the holiday with your team or charity.\n\nWho's watching tonight? Link in bio.\n\n#TurkeyBowl #Bronx #TNF #FootballSquares #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Test run night",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "eyebrow": "Tonight · Thursday Night Football",
+      "title": "Jaguars at Ravens",
+      "facts": [
+        "Thu Nov 5",
+        "8:15 PM ET",
+        "Prime Video"
+      ],
+      "board": {
+        "top": "Ravens",
+        "side": "Jaguars",
+        "win_label": "Practice"
+      }
+    },
+    {
+      "title_lines": [
+        "Tonight is",
+        "practice"
+      ],
+      "body": [
+        "Set up a free board and send it to a few parents.",
+        "No pressure. Just a test run before the big one."
+      ]
+    },
+    {
+      "title_lines": [
+        "What you'll",
+        "learn tonight"
+      ],
+      "bullets": [
+        "How fast the squares go",
+        "Who in the group chat buys first",
+        "What price feels right",
+        "How the payouts work"
+      ]
+    },
+    {
+      "eyebrow": "Thanksgiving morning · New York City",
+      "title_lines": [
+        "Then the",
+        "real thing"
+      ],
+      "facts": [
+        "Fordham Prep vs Xavier",
+        "Thu Nov 26"
+      ],
+      "picture": "art/bronx-manhattan.jpg"
+    },
+    {
+      "title_lines": [
+        "Who's watching",
+        "tonight?"
+      ],
+      "body": [
+        "Make tonight's board now. Roll it out for Thanksgiving with your team or charity."
+      ],
+      "cta": {
+        "ask": "Make tonight's board",
+        "url": "SuperBowlPoolSite.com/tnf"
+      }
+    }
+  ]
+}

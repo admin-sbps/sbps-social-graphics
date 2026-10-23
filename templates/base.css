@@ -311,3 +311,65 @@ body {
 .fmt-16x9 .row .time { white-space: nowrap; }
 .fmt-16x9 .row .match { white-space: nowrap; }
 .fmt-16x9 .row .match { font-size: calc(46px * var(--s)); }
+
+/* Carousels: a segmented progress bar along the top and a swipe cue in the
+   footer, so each slide reads as one beat of the story. */
+.page { position: relative; }
+.progress {
+  position: absolute; top: 26px; left: var(--pad-x); right: var(--pad-x);
+  display: flex; gap: 8px; z-index: 2;
+}
+.progress i { flex: 1; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.18); }
+.progress i.on { background: var(--green); }
+.page:has(.aart) .progress { top: 18px; }
+.swipe {
+  color: var(--green); font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+  font-size: 36px; letter-spacing: 3px; text-transform: uppercase;
+}
+.swipe b { margin-left: 10px; }
+.apill.next { justify-content: flex-end; gap: 14px; }
+.apill.next b { font-size: 40px; }
+
+/* Story blocks: a short paragraph, a big number, a group chat, a checklist,
+   or a picture, so slides can carry the narrative between the boards. */
+.story { flex: none; display: flex; flex-direction: column; gap: 22px; }
+.story p { font-size: 48px; line-height: 1.28; font-weight: 600; color: #e2e4f5; }
+.stats { flex: none; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 16px; }
+.stat {
+  background: var(--card); border: 1.5px solid var(--card-line); border-radius: 16px;
+  padding: 28px 20px; text-align: center;
+}
+.stat .big { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 120px; line-height: 0.95; color: var(--accent); }
+.stat .lbl { font-size: 28px; font-weight: 600; color: var(--muted); margin-top: 10px; }
+.chat { flex: none; display: flex; flex-direction: column; gap: 18px; }
+.msg { display: flex; flex-direction: column; align-items: flex-start; max-width: 82%; }
+.msg.me { align-self: flex-end; align-items: flex-end; }
+.msg .who { font-size: 26px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin: 0 14px 6px; }
+.msg .bubble {
+  font-size: 46px; line-height: 1.25; font-weight: 600; padding: 18px 26px; border-radius: 28px 28px 28px 8px;
+  background: var(--card); border: 1.5px solid var(--card-line); color: #fff;
+}
+.msg.me .bubble { background: var(--purple); border-color: var(--purple); border-radius: 28px 28px 8px 28px; }
+.bullets { flex: none; display: flex; flex-direction: column; gap: 16px; }
+.bullet {
+  display: flex; gap: 22px; align-items: center; background: var(--card);
+  border: 1.5px solid var(--card-line); border-radius: 16px; padding: 28px 30px;
+  font-size: 42px; font-weight: 600; line-height: 1.2;
+}
+.bullet .tick {
+  flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--green); position: relative;
+}
+.bullet .tick::after {
+  content: ""; position: absolute; left: 15px; top: 8px; width: 11px; height: 21px;
+  border: solid var(--green-ink); border-width: 0 5px 5px 0; transform: rotate(45deg);
+}
+.picture { flex: 1; min-height: 0; border-radius: 18px; overflow: hidden; border: 1.5px solid var(--card-line); }
+.picture img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+/* On carousel slides the call to action stacks, so long page links fit on one line. */
+.carousel .cta { flex-direction: column; align-items: flex-start; gap: 10px; }
+.carousel .cta .url { text-align: left; font-size: 34px; }
+/* A slide that is only words gets bigger words. */
+.fbody:has(> .story:only-child) .story p { font-size: 60px; line-height: 1.22; }
+.fbody:has(> .story:only-child) .story { gap: 34px; }
+.carousel .fbody > .list { flex: none; }
+.carousel .fbody > .list:not(:has(> :nth-child(4))) .row { min-height: 150px; }
