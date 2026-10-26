@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  /* Email hero, 1000x500 (shown at 500x250 in the email). Site brand colors from templates/base.css. */
+  :root{
+    --bg:#0c0d1a; --card:#171936; --card-line:#2a2d5c;
+    --purple:#6366f1; --green:#22c55e; --green-ink:#06210f;
+    --cream:#fff8e7; --text:#ffffff; --muted:#b3b6d6; --amber:#f59e0b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1000px;height:500px;overflow:hidden;background:var(--bg)}
+  body{font-family:"Barlow",sans-serif;color:var(--text);position:relative;-webkit-font-smoothing:antialiased}
+
+  .bg{position:absolute;inset:0;background:
+      radial-gradient(620px 420px at 92% 0%, rgba(99,102,241,.55) 0%, rgba(99,102,241,0) 60%),
+      radial-gradient(520px 360px at 4% 110%, rgba(245,158,11,.30) 0%, rgba(245,158,11,0) 60%),
+      var(--bg);}
+  .grid-wrap{position:absolute;left:46%;top:50%;transform:translate(-50%,-50%) rotate(-7deg);width:1400px;height:1400px;opacity:.09}
+  .grid{display:grid;grid-template-columns:repeat(10,1fr);grid-template-rows:repeat(10,1fr);width:100%;height:100%}
+  .grid div{border:1.5px solid var(--cream)}
+  .grid .on{background:var(--cream);opacity:.5}
+
+  .content{position:absolute;inset:0;padding:40px 52px 34px;display:flex;flex-direction:column;justify-content:space-between}
+
+  .kicker{display:inline-flex;align-items:center;gap:14px;font-weight:700;font-size:25px;letter-spacing:.2em;text-transform:uppercase;color:var(--green);white-space:nowrap}
+  .kicker .dot{width:13px;height:13px;border-radius:50%;background:var(--green);box-shadow:0 0 0 6px rgba(34,197,94,.22);flex:none}
+
+  h1{font-family:"Barlow Condensed",sans-serif;font-weight:800;line-height:.88;text-transform:uppercase;margin-top:16px;letter-spacing:.5px}
+  h1 .thin{display:block;font-size:66px;font-weight:600;color:var(--muted);letter-spacing:3px;margin-bottom:6px}
+  h1 .big{display:block;font-size:158px;text-shadow:0 10px 40px rgba(0,0,0,.5)}
+
+  .games{display:flex;gap:12px;margin-top:18px}
+  .games div{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:34px;letter-spacing:.5px;text-transform:uppercase;
+      padding:9px 18px;border-radius:12px;background:var(--card);border:2px solid var(--card-line);white-space:nowrap;line-height:1}
+  .games span{color:var(--muted);font-weight:600;font-size:.72em;margin:0 6px;text-transform:lowercase}
+
+  .bottom{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+  .when{font-weight:600;font-size:30px;color:var(--text);white-space:nowrap}
+  .when b{display:inline-block;background:var(--green);color:var(--green-ink);font-weight:800;font-size:26px;letter-spacing:.14em;
+      text-transform:uppercase;padding:8px 16px;border-radius:999px;margin-right:14px;vertical-align:3px}
+  .url{font-weight:600;font-size:24px;color:var(--muted);white-space:nowrap;letter-spacing:.02em}
+  .url b{color:var(--cream);font-weight:700}
+
+  /* claimed-squares mini board, right side */
+  .mini{position:absolute;right:58px;top:36px;display:grid;grid-template-columns:repeat(4,1fr);gap:9px;width:250px;height:250px;
+      transform:rotate(4deg);filter:drop-shadow(0 18px 40px rgba(0,0,0,.55))}
+  .mini div{border:3px solid rgba(255,248,231,.35);border-radius:10px;display:flex;align-items:center;justify-content:center;
+      font-weight:700;font-size:25px;color:var(--cream);background:rgba(23,25,54,.65)}
+  .mini .p{background:var(--purple);border-color:var(--purple);color:#fff}
+  .mini .g{background:var(--green);border-color:var(--green);color:var(--green-ink)}
+  .mini .w{background:var(--cream);border-color:var(--cream);color:#0c0d1a}
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grid-wrap"><div class="grid" id="grid"></div></div>
+
+  <div class="mini">
+    <div class="p">JM</div><div></div><div class="g">AR</div><div></div>
+    <div></div><div class="w">TK</div><div></div><div class="p">LS</div>
+    <div class="g">DP</div><div></div><div></div><div class="w">RJ</div>
+    <div></div><div class="p">MC</div><div class="g">EB</div><div></div>
+  </div>
+
+  <div class="content">
+    <div>
+      <div class="kicker"><span class="dot"></span>Grids are open</div>
+      <h1>
+        <span class="thin">Thanksgiving</span>
+        <span class="big">Squares</span>
+      </h1>
+      <div class="games">
+        <div>Bears<span>at</span>Lions</div>
+        <div>Eagles<span>at</span>Cowboys</div>
+        <div>Chiefs<span>at</span>Bills</div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="when"><b>Thu Nov 26</b>One grid plays all three games.</div>
+      <div class="url">Free to create at <b>superbowlpoolsite.com/thx</b></div>
+    </div>
+  </div>
+
+<script>
+  const g=document.getElementById('grid');
+  const on=new Set([3,7,12,18,21,27,33,38,44,49,52,58,61,66,73,79,84,88,91,97]);
+  for(let i=0;i<100;i++){const d=document.createElement('div');if(on.has(i))d.className='on';g.appendChild(d);}
+</script>
+</body>
+</html>
