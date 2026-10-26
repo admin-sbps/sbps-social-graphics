@@ -1,0 +1,106 @@
+{
+  "template": "winners",
+  "eyebrow": "Final Score Squares",
+  "title": "Today's Winners",
+  "date_lines": [
+    "Sunday",
+    "Oct 25, 2026"
+  ],
+  "footnote": "Last digit of each team's final score",
+  "cta": {
+    "ask": "Raise money with squares",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "only_in": {
+    "cta": [
+      "9x16",
+      "2x3"
+    ]
+  },
+  "games": [
+    {
+      "label": "Final \u00b7 Paris",
+      "away": "Steelers",
+      "away_score": 16,
+      "home": "Saints",
+      "home_score": 10
+    },
+    {
+      "label": "Final",
+      "away": "49ers",
+      "away_score": 20,
+      "home": "Falcons",
+      "home_score": 29
+    },
+    {
+      "label": "Final",
+      "away": "Browns",
+      "away_score": 27,
+      "home": "Titans",
+      "home_score": 24
+    },
+    {
+      "label": "Final",
+      "away": "Colts",
+      "away_score": 10,
+      "home": "Vikings",
+      "home_score": 16
+    },
+    {
+      "label": "Final",
+      "away": "Dolphins",
+      "away_score": 28,
+      "home": "Jets",
+      "home_score": 25
+    },
+    {
+      "label": "Final",
+      "away": "Buccaneers",
+      "away_score": 43,
+      "home": "Panthers",
+      "home_score": 13
+    },
+    {
+      "label": "Final",
+      "away": "Bengals",
+      "away_score": 35,
+      "home": "Ravens",
+      "home_score": 13
+    },
+    {
+      "label": "Final \u00b7 OT",
+      "away": "Giants",
+      "away_score": 27,
+      "home": "Texans",
+      "home_score": 21
+    },
+    {
+      "label": "Final",
+      "away": "Broncos",
+      "away_score": 30,
+      "home": "Cardinals",
+      "home_score": 16
+    },
+    {
+      "label": "Final",
+      "away": "Packers",
+      "away_score": 17,
+      "home": "Lions",
+      "home_score": 20
+    },
+    {
+      "label": "Final",
+      "away": "Rams",
+      "away_score": 35,
+      "home": "Raiders",
+      "home_score": 21
+    },
+    {
+      "label": "Final",
+      "away": "Chiefs",
+      "away_score": 3,
+      "home": "Seahawks",
+      "home_score": 20
+    }
+  ]
+}
