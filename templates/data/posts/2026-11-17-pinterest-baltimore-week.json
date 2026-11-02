@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/baltimore.jpg",
+  "eyebrow": "Turkey Bowl week \u00b7 Baltimore",
+  "title": "Calvert Hall vs Loyola Blakefield",
+  "facts": [
+    "Thanksgiving morning"
+  ],
+  "lines": [
+    "Wed: Packers at Rams, 8:00 PM ET, Netflix",
+    "Then: Bears at Lions 1:00, Eagles at Cowboys 4:30, Chiefs at Bills 8:20 ET"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

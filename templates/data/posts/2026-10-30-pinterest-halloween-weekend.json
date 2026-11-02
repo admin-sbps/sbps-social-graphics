@@ -1,0 +1,52 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": true,
+  "eyebrow": "Halloween weekend",
+  "title_lines": [
+    "No tricks.",
+    "Just squares."
+  ],
+  "facts": [
+    "Oct 31 to Nov 1"
+  ],
+  "games": [
+    {
+      "day": "Sat",
+      "date": "10/31",
+      "away": "Georgia",
+      "home": "Florida",
+      "time": "3:30 PM",
+      "tv": "ABC",
+      "group": "Saturday · In Atlanta",
+      "vs": true
+    },
+    {
+      "day": "Sun",
+      "date": "11/1",
+      "away": "Eagles",
+      "home": "Commanders",
+      "time": "Night",
+      "tv": "NBC",
+      "group": "Sunday night"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS",
+      "group": "Dry run for Thanksgiving",
+      "tag": "Set it up now"
+    }
+  ],
+  "hook": "A free squares board is the treat for the grown ups at the Halloween party.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

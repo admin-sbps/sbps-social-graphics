@@ -1,0 +1,43 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Cowboys fans",
+  "title_lines": [
+    "Two Cowboys",
+    "boards"
+  ],
+  "facts": [
+    "Today",
+    "Thanksgiving"
+  ],
+  "games": [
+    {
+      "day": "Sun",
+      "date": "11/15",
+      "away": "49ers",
+      "home": "Cowboys",
+      "time": "4:25 PM",
+      "tv": "FOX",
+      "tag": "Today"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX",
+      "tag": "Thanksgiving",
+      "feature": true
+    }
+  ],
+  "hook": "If your crowd lives and dies with Dallas, the Thanksgiving board sells itself.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

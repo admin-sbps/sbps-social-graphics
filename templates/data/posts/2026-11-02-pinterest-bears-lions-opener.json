@@ -1,0 +1,39 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Monday Night Football · Tonight",
+  "title": "Bears week",
+  "facts": [
+    "2 Bears games"
+  ],
+  "hook": "Everyone is home, the food isn't ready yet, and the whole family is watching. The easiest board to sell.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money.",
+  "games": [
+    {
+      "day": "Mon",
+      "date": "11/2",
+      "away": "Bears",
+      "home": "Seahawks",
+      "time": "8:15 PM",
+      "tv": "ESPN",
+      "tag": "Tonight"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS",
+      "tag": "Thanksgiving opener",
+      "feature": true
+    }
+  ]
+}

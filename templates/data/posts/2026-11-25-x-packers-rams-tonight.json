@@ -1,0 +1,24 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving Eve \u00b7 Tonight",
+  "title": "Packers at Rams",
+  "facts": [
+    "Wed Nov 25",
+    "8:00 PM ET",
+    "Netflix"
+  ],
+  "board": {
+    "top": "Rams",
+    "side": "Packers"
+  },
+  "hook": "Last chance for a Thanksgiving Eve board. Three more games tomorrow, one on Friday.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

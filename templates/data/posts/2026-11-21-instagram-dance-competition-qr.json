@@ -1,0 +1,31 @@
+{
+  "template": "feature",
+  "formats": [
+    "4x5"
+  ],
+  "eyebrow": "Dance studios \u00b7 Competition weekend",
+  "title_lines": [
+    "Bring your board",
+    "to competition"
+  ],
+  "steps": [
+    {
+      "title": "Make a QR code",
+      "text": "Turn your board link into a QR code."
+    },
+    {
+      "title": "Print a sign",
+      "text": "Lobby or snack table. Parents scan and pick a square."
+    },
+    {
+      "title": "Post it in the studio chat",
+      "text": "Same link, tonight."
+    }
+  ],
+  "hook": "Half the pot to the winner, half to competition fees, costumes or the nationals fund.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

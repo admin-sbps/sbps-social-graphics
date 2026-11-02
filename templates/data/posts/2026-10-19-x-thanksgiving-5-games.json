@@ -1,0 +1,68 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": true,
+  "eyebrow": "Thanksgiving week 2026",
+  "title_lines": [
+    "5 NFL games,",
+    "one free contest"
+  ],
+  "facts": [
+    "Nov 25 to 27"
+  ],
+  "games": [
+    {
+      "day": "Wed",
+      "date": "11/25",
+      "away": "Packers",
+      "home": "Rams",
+      "time": "8:00 PM",
+      "tv": "Netflix",
+      "group": "Thanksgiving Eve"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Bears",
+      "home": "Lions",
+      "time": "1:00 PM",
+      "tv": "CBS",
+      "group": "Thanksgiving Day"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX",
+      "group": "Thanksgiving Day"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Chiefs",
+      "home": "Bills",
+      "time": "8:20 PM",
+      "tv": "NBC",
+      "group": "Thanksgiving Day"
+    },
+    {
+      "day": "Fri",
+      "date": "11/27",
+      "away": "Broncos",
+      "home": "Steelers",
+      "time": "3:00 PM",
+      "tv": "Prime Video",
+      "group": "Black Friday"
+    }
+  ],
+  "hook": "Run one game or all five on a single board.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

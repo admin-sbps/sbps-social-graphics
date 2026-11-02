@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/new-canaan.jpg",
+  "eyebrow": "Booster clubs and PTAs",
+  "title": "New Canaan vs Darien",
+  "facts": [
+    "Thu Nov 26",
+    "Turkey Bowl"
+  ],
+  "lines": [
+    "One board for the game, or one for the NFL tripleheader after it"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

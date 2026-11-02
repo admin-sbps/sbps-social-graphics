@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/wellesley-needham.jpg",
+  "eyebrow": "Team fundraiser example",
+  "title": "Wellesley vs Needham",
+  "facts": [
+    "$10 a square",
+    "$500 to the team"
+  ],
+  "lines": [
+    "100 squares sold: $500 to the winner, $500 toward the tournament trip"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

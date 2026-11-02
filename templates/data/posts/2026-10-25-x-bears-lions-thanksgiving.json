@@ -1,0 +1,24 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Lions home on Thanksgiving",
+  "title": "Bears at Lions",
+  "facts": [
+    "Thu Nov 26",
+    "1:00 PM ET",
+    "CBS"
+  ],
+  "board": {
+    "top": "Lions",
+    "side": "Bears"
+  },
+  "hook": "Packers at Lions today. Start your Thanksgiving board now and give it a month to sell.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
