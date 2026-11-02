@@ -1,0 +1,106 @@
+{
+  "template": "winners",
+  "eyebrow": "Final Score Squares",
+  "title": "Today's Winners",
+  "date_lines": [
+    "Sunday",
+    "Nov 1, 2026"
+  ],
+  "footnote": "Last digit of each team's final score",
+  "cta": {
+    "ask": "Raise money with squares",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "only_in": {
+    "cta": [
+      "9x16",
+      "2x3"
+    ]
+  },
+  "games": [
+    {
+      "label": "Final",
+      "away": "Ravens",
+      "away_score": 10,
+      "home": "Bills",
+      "home_score": 36
+    },
+    {
+      "label": "Final \u00b7 OT",
+      "away": "Titans",
+      "away_score": 36,
+      "home": "Bengals",
+      "home_score": 43
+    },
+    {
+      "label": "Final \u00b7 OT",
+      "away": "Cardinals",
+      "away_score": 33,
+      "home": "Cowboys",
+      "home_score": 30
+    },
+    {
+      "label": "Final",
+      "away": "Vikings",
+      "away_score": 15,
+      "home": "Lions",
+      "home_score": 19
+    },
+    {
+      "label": "Final",
+      "away": "Raiders",
+      "away_score": 38,
+      "home": "Jets",
+      "home_score": 33
+    },
+    {
+      "label": "Final",
+      "away": "Browns",
+      "away_score": 6,
+      "home": "Steelers",
+      "home_score": 27
+    },
+    {
+      "label": "Final",
+      "away": "Falcons",
+      "away_score": 0,
+      "home": "Buccaneers",
+      "home_score": 16
+    },
+    {
+      "label": "Final",
+      "away": "Colts",
+      "away_score": 7,
+      "home": "Jaguars",
+      "home_score": 42
+    },
+    {
+      "label": "Final",
+      "away": "Chargers",
+      "away_score": 9,
+      "home": "Rams",
+      "home_score": 24
+    },
+    {
+      "label": "Final",
+      "away": "Chiefs",
+      "away_score": 24,
+      "home": "Broncos",
+      "home_score": 28
+    },
+    {
+      "label": "Final",
+      "away": "Patriots",
+      "away_score": 24,
+      "home": "Dolphins",
+      "home_score": 19
+    },
+    {
+      "label": "Final",
+      "away": "Eagles",
+      "away_score": 10,
+      "home": "Commanders",
+      "home_score": 27
+    }
+  ]
+}
