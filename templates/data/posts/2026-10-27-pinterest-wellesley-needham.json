@@ -1,0 +1,20 @@
+{
+  "template": "artframe",
+  "formats": [
+    "2x3"
+  ],
+  "art": "art/wellesley-needham.jpg",
+  "eyebrow": "Thanksgiving morning \u00b7 Massachusetts",
+  "title": "Wellesley vs Needham",
+  "facts": [
+    "Thu Nov 26",
+    "Game 139"
+  ],
+  "lines": [
+    "A no-cost fundraiser for PTOs, food pantries and booster clubs"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

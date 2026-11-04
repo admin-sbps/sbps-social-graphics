@@ -1,0 +1,86 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff390e025935d3b838ff",
+    "caption": "The Bears are in Seattle tonight. On Thanksgiving they open the day in Detroit, 1 PM on CBS. Swipe for why that's the game to fundraise on.\n\nFamilies are home, the turkey's in the oven, and the TV is already on. Sell your squares this month, run the game on Thanksgiving. Free to create at the link in bio.\n\nBears or Lions?\n\n#DaBears #OnePride #ThanksgivingFootball #FootballSquares"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Bears week",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "eyebrow": "Tonight · Monday Night Football",
+      "title": "Bears at Seahawks",
+      "facts": [
+        "Mon Nov 2",
+        "Tonight"
+      ],
+      "body": [
+        "Enjoy it.",
+        "Then circle the Bears' next big one."
+      ]
+    },
+    {
+      "eyebrow": "Thanksgiving opener",
+      "title": "Bears at Lions",
+      "facts": [
+        "Thu Nov 26",
+        "1:00 PM ET",
+        "CBS"
+      ],
+      "board": {
+        "top": "Lions",
+        "side": "Bears"
+      }
+    },
+    {
+      "title_lines": [
+        "Why it's the best",
+        "fundraiser game"
+      ],
+      "bullets": [
+        "It's the first game of the day",
+        "Families are already home",
+        "The turkey is in the oven",
+        "The TV is already on"
+      ]
+    },
+    {
+      "title_lines": [
+        "Sell this month.",
+        "Play Thanksgiving."
+      ],
+      "steps": [
+        {
+          "title": "This week",
+          "text": "Make your free board."
+        },
+        {
+          "title": "All of November",
+          "text": "Share the link. Squares fill up."
+        },
+        {
+          "title": "Thanksgiving at 1",
+          "text": "Watch it together. Pay the winner."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Bears or Lions?"
+      ],
+      "body": [
+        "Tell us in the comments.",
+        "Half the pot goes to your team or cause either way."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

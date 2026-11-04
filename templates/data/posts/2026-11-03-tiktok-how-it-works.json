@@ -1,0 +1,34 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "How squares work",
+  "title_lines": [
+    "4 steps to",
+    "a full board"
+  ],
+  "steps": [
+    {
+      "title": "Create a free contest",
+      "text": "Takes a few minutes."
+    },
+    {
+      "title": "Pick your game",
+      "text": "The Turkey Bowl or the pros. Set a square price."
+    },
+    {
+      "title": "Share the link",
+      "text": "People claim their squares."
+    },
+    {
+      "title": "Watch the game",
+      "text": "You handle the money your way."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

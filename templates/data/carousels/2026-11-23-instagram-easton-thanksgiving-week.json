@@ -1,0 +1,107 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd12ad358c83a3d376d5dc",
+    "caption": "Thanksgiving week. In Easton and Phillipsburg, the day starts with game 119. When the morning game ends, the pros kick off. Swipe through all five games.\n\nWed: Packers at Rams, 8 PM, Netflix\nThu: Bears at Lions, 1 PM, CBS\nThu: Eagles at Cowboys, 4:30 PM, FOX\nThu: Chiefs at Bills, 8:20 PM, NBC\nFri: Broncos at Steelers, 3 PM, Prime Video\n\nPick one game or run them all. Make your free board at the link in bio.\n\nRed Rovers or Stateliners?\n\n#EastonPhillipsburg #LehighValley #ThanksgivingFootball #FootballSquares #NFL"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Thanksgiving week",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/easton-phillipsburg.jpg",
+      "eyebrow": "Easton vs Phillipsburg · Game 119",
+      "title": "Thanksgiving week is here",
+      "facts": [
+        "Thu Nov 26"
+      ]
+    },
+    {
+      "eyebrow": "Wednesday night",
+      "title_lines": [
+        "It starts",
+        "Wednesday"
+      ],
+      "games": [
+        {
+          "day": "Wed",
+          "date": "11/25",
+          "away": "Packers",
+          "home": "Rams",
+          "time": "8:00 PM",
+          "tv": "Netflix"
+        }
+      ],
+      "body": "Thanksgiving Eve under the lights."
+    },
+    {
+      "eyebrow": "Thursday",
+      "title_lines": [
+        "Morning game,",
+        "then the pros"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Black Friday",
+      "title_lines": [
+        "One more",
+        "for Friday"
+      ],
+      "games": [
+        {
+          "day": "Fri",
+          "date": "11/27",
+          "away": "Broncos",
+          "home": "Steelers",
+          "time": "3:00 PM",
+          "tv": "Prime Video"
+        }
+      ],
+      "body": "Leftovers, the couch and one more board."
+    },
+    {
+      "title_lines": [
+        "Red Rovers or",
+        "Stateliners?"
+      ],
+      "body": [
+        "Pick one game or run all five. Half the pot can go to your team or cause."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

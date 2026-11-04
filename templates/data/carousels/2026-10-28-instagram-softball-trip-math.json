@@ -1,0 +1,103 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6accff3e176c301054878a0a",
+    "caption": "How a softball team can get closer to a tournament trip with one Thanksgiving board. Swipe through the math.\n\nSquares at $10. 100 squares on the board. That's $1,000, with $500 to the winner and $500 to the team, for example. Run two games and the trip is a lot closer.\n\nThe board is free. Each team collects and pays out on its own. We never touch the money. Link in bio.\n\nSave this for your next booster meeting.\n\n#TravelSoftball #TeamFundraiser #FootballSquares #SportsParents"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Example: travel softball",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "One board.",
+        "$500 for the trip."
+      ],
+      "stat": [
+        {
+          "big": "$10",
+          "label": "a square"
+        },
+        {
+          "big": "100",
+          "label": "squares"
+        },
+        {
+          "big": "$500",
+          "label": "to the team"
+        }
+      ],
+      "body": "Here's how the math can work for a travel softball team.",
+      "footnote": "Example pot. You collect and pay out your own way."
+    },
+    {
+      "title_lines": [
+        "The usual",
+        "fundraisers"
+      ],
+      "bullets": [
+        "Bake sale: a whole weekend of baking",
+        "Car wash: hope it doesn't rain",
+        "Candy bars: parents buy the box"
+      ]
+    },
+    {
+      "title_lines": [
+        "The squares",
+        "version"
+      ],
+      "steps": [
+        {
+          "title": "Make a free board",
+          "text": "Pick a Thanksgiving game."
+        },
+        {
+          "title": "Sell 100 squares at $10",
+          "text": "Families, grandparents, coworkers."
+        },
+        {
+          "title": "Split the pot",
+          "text": "Half to the winner, half to the trip."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Run it on",
+        "Bears at Lions"
+      ],
+      "facts": [
+        "Thu Nov 26",
+        "1:00 PM ET",
+        "CBS"
+      ],
+      "board": {
+        "top": "Lions",
+        "side": "Bears",
+        "win_label": "Team"
+      }
+    },
+    {
+      "title_lines": [
+        "Two boards,",
+        "closer trip"
+      ],
+      "stat": [
+        {
+          "big": "$1,000",
+          "label": "to the team from two $10 boards"
+        }
+      ],
+      "body": "Add Eagles at Cowboys at 4:30 and you've doubled it, for example.",
+      "cta": {
+        "ask": "Make your free board",
+        "url": "SuperBowlPoolSite.com/football-squares-fundraiser"
+      },
+      "footnote": "Example pots. We never touch the money."
+    }
+  ]
+}

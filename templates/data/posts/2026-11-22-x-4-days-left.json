@@ -1,0 +1,23 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thanksgiving squares",
+  "title": "4 days left",
+  "facts": [
+    "Thu Nov 26"
+  ],
+  "board": {
+    "top": "Cowboys",
+    "side": "Eagles",
+    "filled": 0.82
+  },
+  "hook": "How many squares are still open? Post a screenshot in the team chat today.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

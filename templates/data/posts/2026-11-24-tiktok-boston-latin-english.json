@@ -1,0 +1,21 @@
+{
+  "template": "artframe",
+  "formats": [
+    "9x16"
+  ],
+  "art": "art/boston-no-headline.jpg",
+  "eyebrow": "Thanksgiving morning \u00b7 Boston",
+  "title": "Boston Latin vs English",
+  "facts": [
+    "Thu Nov 26",
+    "Since 1887"
+  ],
+  "lines": [
+    "One of the oldest high school rivalries in the country",
+    "Then: Bears at Lions 1:00, Eagles at Cowboys 4:30, Chiefs at Bills 8:20 ET"
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Monday Night Football · Tonight",
+  "title": "The rematch",
+  "facts": [
+    "2 games",
+    "1 rivalry"
+  ],
+  "games": [
+    {
+      "day": "Mon",
+      "date": "10/26",
+      "away": "Cowboys",
+      "home": "Eagles",
+      "time": "8:15 PM",
+      "tv": "ESPN",
+      "tag": "Tonight"
+    },
+    {
+      "day": "Thu",
+      "date": "11/26",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "time": "4:30 PM",
+      "tv": "FOX",
+      "tag": "Thanksgiving",
+      "feature": true
+    }
+  ],
+  "hook": "Start the Thanksgiving rematch board tonight and give squares a full month to sell.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "All times ET. Free to create. We never touch the money."
+}

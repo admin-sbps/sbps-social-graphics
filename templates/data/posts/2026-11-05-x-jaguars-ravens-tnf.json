@@ -1,0 +1,24 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Thursday Night Football \u00b7 Tonight",
+  "title": "Jaguars at Ravens",
+  "facts": [
+    "Thu Nov 5",
+    "8:15 PM ET",
+    "Prime Video"
+  ],
+  "board": {
+    "top": "Ravens",
+    "side": "Jaguars"
+  },
+  "hook": "Run a dry run board tonight, then use the same setup for Thanksgiving.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

@@ -1,0 +1,38 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Dance and cheer studios",
+  "title_lines": [
+    "Fund competition",
+    "season"
+  ],
+  "facts": [
+    "Thanksgiving Day",
+    "100 squares"
+  ],
+  "prices": [
+    {
+      "price": 5,
+      "who": "Family and friends"
+    },
+    {
+      "price": 10,
+      "who": "Team fundraiser",
+      "feature": true
+    },
+    {
+      "price": 20,
+      "who": "Office or alumni"
+    }
+  ],
+  "prices_cause": "To the studio",
+  "hook": "Every family is home with the TV on. Keep half the pot for the studio.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Example pots. Free to create. We never touch the money."
+}

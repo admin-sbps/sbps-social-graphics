@@ -1,0 +1,96 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6aad5f0e48da7f578f483e77",
+    "caption": "106 Thanksgivings of the Turkey Bowl. Nobody does Turkey Day football like Baltimore. Swipe through the day.\n\nCalvert Hall and Loyola Blakefield meet again on Thanksgiving morning, and after the final whistle the pros play till midnight. You can create a squares contest for any of it. Click Create and type in the team names.\n\nYouth teams and charities, half the pot goes to your cause. Link in bio.\n\n#TurkeyBowl #Baltimore #CalvertHall #LoyolaBlakefield #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Baltimore Turkey Bowl",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/baltimore.jpg",
+      "eyebrow": "Thanksgiving morning · Baltimore",
+      "title": "106 Thanksgivings",
+      "facts": [
+        "Thu Nov 26",
+        "The Turkey Bowl"
+      ]
+    },
+    {
+      "title_lines": [
+        "Nobody does",
+        "Turkey Day like it"
+      ],
+      "body": [
+        "Calvert Hall and Loyola Blakefield meet again on Thanksgiving morning.",
+        "The whole city knows the score by lunch."
+      ]
+    },
+    {
+      "title_lines": [
+        "Then the pros",
+        "play till midnight"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Make a board",
+        "for any of it"
+      ],
+      "facts": [
+        "Click Create",
+        "Type the team names"
+      ],
+      "board": {
+        "top": "Loyola",
+        "side": "Calvert Hall",
+        "win_label": "Cause"
+      }
+    },
+    {
+      "title_lines": [
+        "Half the pot",
+        "to your cause"
+      ],
+      "body": [
+        "Youth teams and charities across Baltimore: the winner gets half, your cause gets half."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

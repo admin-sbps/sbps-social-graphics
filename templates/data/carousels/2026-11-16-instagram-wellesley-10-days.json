@@ -1,0 +1,80 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd1267fd425063ef4a107e",
+    "caption": "10 days to Thanksgiving, and 10 days to game 139 between Wellesley and Needham. Swipe for the 10 day plan.\n\nA free 100 square board takes a few minutes. Drop the link in the team chat, the booster club email and the family chat. Half the pot goes to the winner and half to your team or cause.\n\nLink in bio. Save this as your nudge.\n\n#Wellesley #Needham #WellesleyMA #NeedhamMA #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "10 days out",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/wellesley-needham.jpg",
+      "eyebrow": "Wellesley vs Needham",
+      "title": "10 days to game 139",
+      "facts": [
+        "Thu Nov 26"
+      ]
+    },
+    {
+      "title_lines": [
+        "Set it up tonight.",
+        "Sell it all week."
+      ],
+      "body": [
+        "A free 100 square board takes a few minutes.",
+        "The rest is sharing one link."
+      ]
+    },
+    {
+      "title_lines": [
+        "Where the",
+        "link goes"
+      ],
+      "bullets": [
+        "The team group chat",
+        "The booster club email",
+        "The family group chat",
+        "The alumni page"
+      ]
+    },
+    {
+      "title_lines": [
+        "The 10 day",
+        "plan"
+      ],
+      "steps": [
+        {
+          "title": "Tonight",
+          "text": "Make the board."
+        },
+        {
+          "title": "All week",
+          "text": "Share the link. Squares fill up."
+        },
+        {
+          "title": "Thanksgiving",
+          "text": "Watch the game. Pay the winner. Keep half."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Save this as",
+        "your nudge"
+      ],
+      "body": [
+        "Half the pot goes to the winner and half to your team or cause."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

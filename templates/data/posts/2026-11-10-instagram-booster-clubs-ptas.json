@@ -1,0 +1,15 @@
+{
+  "template": "feature",
+  "formats": ["4x5"],
+  "group_by_day": false,
+  "eyebrow": "Booster clubs and PTAs",
+  "title_lines": ["Your easiest", "fundraiser this year"],
+  "facts": ["Thanksgiving Day"],
+  "steps": [
+    {"title": "Make a free board", "text": "100 squares on a Thanksgiving game."},
+    {"title": "Sell the squares", "text": "Parents and neighbors pick theirs."},
+    {"title": "Split the pot", "text": "Half to the winner, half to the school."}
+  ],
+  "cta": {"ask": "Start your Thanksgiving board", "url": "SuperBowlPoolSite.com/thx"},
+  "footnote": "Free to create. We never touch the money."
+}

@@ -1,0 +1,36 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "Monday Night Football \u00b7 Chargers at Ravens",
+  "title_lines": [
+    "10 days to",
+    "Thanksgiving"
+  ],
+  "facts": [
+    "Mon Nov 16",
+    "8:15 PM ET",
+    "ESPN"
+  ],
+  "steps": [
+    {
+      "title": "Set it up tonight",
+      "text": "During Chargers at Ravens."
+    },
+    {
+      "title": "Send the link",
+      "text": "Drop it in the team chat."
+    },
+    {
+      "title": "Let it sell",
+      "text": "Squares fill up all week."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

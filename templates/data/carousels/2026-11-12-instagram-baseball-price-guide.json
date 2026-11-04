@@ -1,0 +1,103 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd1264358c83a3d376b9d2",
+    "caption": "Baseball parents, not sure what to charge per square? Swipe through the three prices that work.\n\n$5 for family and friends. $10 for a team fundraiser. $20 for the office.\n\n100 squares at $10 is $1,000, with half to the winner and half toward tournament fees, new uniforms or the Cooperstown fund, for example.\n\nMake your free board at the link in bio. Save this for pricing day.\n\n#TravelBaseball #LittleLeague #TeamFundraiser #FootballSquares #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Baseball parents · Save this",
+    "footnote": "Example pots. You collect the money your own way."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "What to charge",
+        "per square"
+      ],
+      "prices": [
+        {
+          "price": 5,
+          "who": "Family and friends"
+        },
+        {
+          "price": 10,
+          "who": "Team fundraiser",
+          "feature": true
+        },
+        {
+          "price": 20,
+          "who": "The office"
+        }
+      ],
+      "prices_cause": "To the team",
+      "hook": "Three prices. Swipe for who each one is for."
+    },
+    {
+      "title_lines": [
+        "$5 for family",
+        "and friends"
+      ],
+      "stat": [
+        {
+          "big": "$500",
+          "label": "pot"
+        },
+        {
+          "big": "$250",
+          "label": "to the team"
+        }
+      ],
+      "body": "Grandparents, cousins, neighbors. A low price gets a fast yes."
+    },
+    {
+      "title_lines": [
+        "$10 for the",
+        "team fundraiser"
+      ],
+      "stat": [
+        {
+          "big": "$1,000",
+          "label": "pot"
+        },
+        {
+          "big": "$500",
+          "label": "to the team"
+        }
+      ],
+      "body": "The sweet spot for most teams. Tournament fees, uniforms or the Cooperstown fund."
+    },
+    {
+      "title_lines": [
+        "$20 for",
+        "the office"
+      ],
+      "stat": [
+        {
+          "big": "$2,000",
+          "label": "pot"
+        },
+        {
+          "big": "$1,000",
+          "label": "to the team"
+        }
+      ],
+      "body": "Coworkers like a bigger pot, and the team gets a bigger half."
+    },
+    {
+      "title_lines": [
+        "Pick your price.",
+        "Make your board."
+      ],
+      "body": [
+        "Save this for pricing day."
+      ],
+      "cta": {
+        "ask": "Make your free board",
+        "url": "SuperBowlPoolSite.com/football-squares-fundraiser"
+      }
+    }
+  ]
+}

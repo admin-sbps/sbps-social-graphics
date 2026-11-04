@@ -1,0 +1,91 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd12ac358c83a3d376d593",
+    "caption": "Competition weekend? Bring your squares board with you. Swipe for the three step lobby trick.\n\nTurn your board link into a QR code and print it on a sign for the lobby or the snack table. Dance parents scan, pick a square, done. Then post the same link in the studio group chat tonight.\n\nHalf the pot goes to the winner and half to competition fees, costumes or the nationals fund.\n\nLink in bio. Save this tip for competition day.\n\n#DanceMom #CompetitiveDance #DanceStudio #FundraisingIdeas #FootballSquares"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Dance studios · Competition weekend",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "title_lines": [
+        "Bring your board",
+        "to competition"
+      ],
+      "facts": [
+        "Competition weekend",
+        "Thanksgiving squares"
+      ],
+      "board": {
+        "top": "Bills",
+        "side": "Chiefs",
+        "win_label": "Studio"
+      }
+    },
+    {
+      "eyebrow": "Step 1",
+      "title_lines": [
+        "Make a QR code",
+        "for your link"
+      ],
+      "body": [
+        "Paste your board link into any free QR code maker.",
+        "Download it. That's it."
+      ]
+    },
+    {
+      "eyebrow": "Step 2",
+      "title_lines": [
+        "Print a sign",
+        "for the lobby"
+      ],
+      "bullets": [
+        "The snack table",
+        "The check in desk",
+        "The hallway by the dressing rooms"
+      ],
+      "body": "Parents scan, pick a square, done."
+    },
+    {
+      "eyebrow": "Step 3",
+      "title_lines": [
+        "Post it in the",
+        "studio chat tonight"
+      ],
+      "chat": [
+        {
+          "from": "Studio",
+          "text": "Thanksgiving squares are up! Link below.",
+          "me": true
+        },
+        {
+          "from": "Dana's mom",
+          "text": "Put us down for 4."
+        },
+        {
+          "from": "Coach K",
+          "text": "Grandparents are in too."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "Half to",
+        "competition fees"
+      ],
+      "body": [
+        "Half the pot goes to the winner and half to fees, costumes or the nationals fund.",
+        "Save this tip for competition day."
+      ],
+      "cta": {
+        "ask": "Make your free board",
+        "url": "SuperBowlPoolSite.com/football-squares-fundraiser"
+      }
+    }
+  ]
+}

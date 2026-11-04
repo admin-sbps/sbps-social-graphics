@@ -1,0 +1,76 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6aad5f68ce73fccf493b669d",
+    "caption": "Every Thanksgiving morning, the Bronx and Manhattan settle it on the field. Fordham Prep vs Xavier is the oldest school rivalry in New York City. Swipe to start a tradition of your own.\n\nYou can create a squares contest for any game, the Turkey Bowl included. Click Create and type in the team names.\n\nYouth leagues, parents associations and charities: half the pot goes to the winner and half to your cause. Link in bio.\n\n#TurkeyBowl #Bronx #NYC #FordhamPrep #ThanksgivingFootball"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Fordham Prep vs Xavier",
+    "footnote": "Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/bronx-manhattan.jpg",
+      "eyebrow": "Thanksgiving morning · New York City",
+      "title": "Fordham Prep vs Xavier",
+      "facts": [
+        "Thu Nov 26",
+        "The Turkey Bowl"
+      ]
+    },
+    {
+      "title_lines": [
+        "Your table needs",
+        "a tradition too"
+      ],
+      "body": [
+        "The city has its Turkey Bowl.",
+        "Your family, your league or your parents association can have a board."
+      ]
+    },
+    {
+      "title_lines": [
+        "Any game",
+        "works"
+      ],
+      "bullets": [
+        "The Turkey Bowl in the morning",
+        "Bears at Lions at 1:00",
+        "Eagles at Cowboys at 4:30",
+        "Chiefs at Bills at 8:20"
+      ]
+    },
+    {
+      "title_lines": [
+        "Click Create.",
+        "Type the names."
+      ],
+      "facts": [
+        "Custom board",
+        "Free"
+      ],
+      "board": {
+        "top": "Xavier",
+        "side": "Fordham Prep",
+        "win_label": "PA"
+      }
+    },
+    {
+      "title_lines": [
+        "Half the pot",
+        "to your cause"
+      ],
+      "body": [
+        "Youth leagues, parents associations and charities: the winner gets half, your cause gets half."
+      ],
+      "cta": {
+        "ask": "Make a custom board",
+        "url": "SuperBowlPoolSite.com/customsquares"
+      }
+    }
+  ]
+}

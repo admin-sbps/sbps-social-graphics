@@ -1,0 +1,116 @@
+{
+  "formats": [
+    "4x5"
+  ],
+  "instagram": {
+    "post_id": "6acd1265acb90f71c6d2a1a3",
+    "caption": "Twelve days from today, the Turkey Bowl kicks off Thanksgiving morning. Then the pros play all day. Swipe for the warm up plan.\n\nNew Canaan and Darien families: one board can cover the whole tripleheader. Make it free, share the link with your team or booster club, and half the pot goes to the cause.\n\nBig college slate today too. Texas at LSU, Michigan at Oregon. Run a board on one and get your group used to it before the holiday.\n\nLink in bio. What's your game today?\n\n#TurkeyBowl #NewCanaan #Darien #CollegeFootball #FootballSquares"
+  },
+  "defaults": {
+    "template": "feature",
+    "eyebrow": "Turkey Bowl countdown",
+    "footnote": "All times ET. Free to create. We never touch the money."
+  },
+  "slides": [
+    {
+      "template": "artframe",
+      "art": "art/new-canaan.jpg",
+      "eyebrow": "New Canaan vs Darien",
+      "title": "12 days to the Turkey Bowl",
+      "facts": [
+        "Thu Nov 26",
+        "Morning kickoff"
+      ]
+    },
+    {
+      "title_lines": [
+        "Then the pros",
+        "play all day"
+      ],
+      "games": [
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Bears",
+          "home": "Lions",
+          "time": "1:00 PM",
+          "tv": "CBS"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Eagles",
+          "home": "Cowboys",
+          "time": "4:30 PM",
+          "tv": "FOX"
+        },
+        {
+          "day": "Thu",
+          "date": "11/26",
+          "away": "Chiefs",
+          "home": "Bills",
+          "time": "8:20 PM",
+          "tv": "NBC"
+        }
+      ],
+      "hook": "One board can cover the whole tripleheader."
+    },
+    {
+      "eyebrow": "College football · Today",
+      "title_lines": [
+        "Warm up",
+        "today"
+      ],
+      "games": [
+        {
+          "day": "Sat",
+          "date": "11/14",
+          "away": "Texas",
+          "home": "LSU",
+          "time": ""
+        },
+        {
+          "day": "Sat",
+          "date": "11/14",
+          "away": "Michigan",
+          "home": "Oregon",
+          "time": ""
+        }
+      ],
+      "body": "Run a board on one and get your group used to it."
+    },
+    {
+      "title_lines": [
+        "Same setup",
+        "in 12 days"
+      ],
+      "steps": [
+        {
+          "title": "Today",
+          "text": "A practice board on a college game."
+        },
+        {
+          "title": "This week",
+          "text": "Your Thanksgiving board goes to the booster club."
+        },
+        {
+          "title": "Nov 26",
+          "text": "Turkey Bowl, then three NFL games."
+        }
+      ]
+    },
+    {
+      "title_lines": [
+        "What's your",
+        "game today?"
+      ],
+      "body": [
+        "Half the pot goes to your team or booster club."
+      ],
+      "cta": {
+        "ask": "Start your Thanksgiving board",
+        "url": "SuperBowlPoolSite.com/thx"
+      }
+    }
+  ]
+}

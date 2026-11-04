@@ -1,0 +1,52 @@
+{
+  "template": "feature",
+  "formats": [
+    "16x9"
+  ],
+  "group_by_day": false,
+  "eyebrow": "College football \u00b7 Sat Nov 7",
+  "title": "Packed Saturday",
+  "facts": [
+    "4 big games"
+  ],
+  "games": [
+    {
+      "day": "Sat",
+      "date": "11/7",
+      "away": "Oregon",
+      "home": "Ohio State",
+      "time": "",
+      "tv": ""
+    },
+    {
+      "day": "Sat",
+      "date": "11/7",
+      "away": "Miami",
+      "home": "Notre Dame",
+      "time": "",
+      "tv": ""
+    },
+    {
+      "day": "Sat",
+      "date": "11/7",
+      "away": "Alabama",
+      "home": "LSU",
+      "time": "",
+      "tv": ""
+    },
+    {
+      "day": "Sat",
+      "date": "11/7",
+      "away": "Georgia",
+      "home": "Ole Miss",
+      "time": "",
+      "tv": ""
+    }
+  ],
+  "hook": "If the gang is coming over, make it a squares day.",
+  "cta": {
+    "ask": "Make a free board",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
