@@ -1,0 +1,32 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "Softball families",
+  "title_lines": [
+    "Keep the",
+    "math easy"
+  ],
+  "prices": [
+    {
+      "price": 5,
+      "who": "Family board"
+    },
+    {
+      "price": 10,
+      "who": "Team board",
+      "feature": true
+    },
+    {
+      "price": 20,
+      "who": "Office board"
+    }
+  ],
+  "hook": "Half the pot can go to new bats or tournament fees.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Example pots for 100 squares. Free to create. We never touch the money."
+}

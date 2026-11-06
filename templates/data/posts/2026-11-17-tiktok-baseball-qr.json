@@ -1,0 +1,30 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "Travel baseball \u00b7 Little League",
+  "title_lines": [
+    "Sell squares",
+    "between innings"
+  ],
+  "steps": [
+    {
+      "title": "Make a QR code",
+      "text": "Turn your board link into a QR code."
+    },
+    {
+      "title": "Tape it to the cooler",
+      "text": "Right there at the field."
+    },
+    {
+      "title": "Parents scan",
+      "text": "Pick a square. Done."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
