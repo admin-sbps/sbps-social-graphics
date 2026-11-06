@@ -1,0 +1,31 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "eyebrow": "Volleyball tournament weekend",
+  "title_lines": [
+    "Put your board",
+    "on the snack table"
+  ],
+  "steps": [
+    {
+      "title": "Make a QR code",
+      "text": "Turn your board link into a QR code."
+    },
+    {
+      "title": "Print a sign",
+      "text": "Tape it to the snack table."
+    },
+    {
+      "title": "Sell between sets",
+      "text": "Parents in the bleachers scan and grab a square."
+    }
+  ],
+  "hook": "Squares can help cover the nationals trip, tournament fees or uniforms.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

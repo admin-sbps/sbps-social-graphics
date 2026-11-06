@@ -1,0 +1,30 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "Volleyball \u00b7 Baseball \u00b7 Softball \u00b7 Dance",
+  "title_lines": [
+    "One fundraiser",
+    "for every sport"
+  ],
+  "steps": [
+    {
+      "title": "Make a free board",
+      "text": "Pick a Thanksgiving game."
+    },
+    {
+      "title": "Everybody grabs a few squares",
+      "text": "Families, friends, the whole team."
+    },
+    {
+      "title": "Split the pot",
+      "text": "Half to the winner, half to the team."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

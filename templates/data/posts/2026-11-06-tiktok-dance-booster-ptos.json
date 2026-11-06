@@ -1,0 +1,30 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "Dance studios \u00b7 Booster clubs \u00b7 PTOs",
+  "title_lines": [
+    "No bake sale.",
+    "No wrapping paper."
+  ],
+  "steps": [
+    {
+      "title": "Make a free board",
+      "text": "Pick a Thanksgiving game, like Wellesley vs Needham or the NFL tripleheader."
+    },
+    {
+      "title": "Share the link",
+      "text": "Send it to every family in the group."
+    },
+    {
+      "title": "Half goes to your group",
+      "text": "The winner takes the other half."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

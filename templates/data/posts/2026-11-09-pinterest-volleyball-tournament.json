@@ -1,0 +1,34 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "eyebrow": "Club volleyball",
+  "title_lines": [
+    "Fundraise during",
+    "tournament season"
+  ],
+  "facts": [
+    "One game or every game",
+    "One link to share"
+  ],
+  "steps": [
+    {
+      "title": "Pick your Thanksgiving game",
+      "text": "Or cover every game in one setup."
+    },
+    {
+      "title": "Share one link",
+      "text": "One place for everyone to see the grid."
+    },
+    {
+      "title": "Fund the season",
+      "text": "Nationals trip, tournament fees or new uniforms."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create and share. You handle collection and payouts your way."
+}
