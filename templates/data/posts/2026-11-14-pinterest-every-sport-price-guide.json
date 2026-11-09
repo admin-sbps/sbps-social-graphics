@@ -1,0 +1,37 @@
+{
+  "template": "feature",
+  "formats": [
+    "2x3"
+  ],
+  "eyebrow": "Baseball \u00b7 Softball \u00b7 Volleyball \u00b7 Dance",
+  "title_lines": [
+    "The ultimate",
+    "fundraiser"
+  ],
+  "facts": [
+    "100 squares",
+    "Half to the winner",
+    "Half to your team"
+  ],
+  "prices": [
+    {
+      "price": 5,
+      "who": "Family board"
+    },
+    {
+      "price": 10,
+      "who": "Team fundraiser",
+      "feature": true
+    },
+    {
+      "price": 20,
+      "who": "Office board"
+    }
+  ],
+  "hook": "Round numbers sell faster.",
+  "cta": {
+    "ask": "Start a free board",
+    "url": "SuperBowlPoolSite.com"
+  },
+  "footnote": "Example pots. You collect the money your own way."
+}

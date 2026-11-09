@@ -1,0 +1,33 @@
+{
+  "template": "feature",
+  "formats": [
+    "9x16"
+  ],
+  "eyebrow": "Club volleyball",
+  "title_lines": [
+    "This is",
+    "the weekend"
+  ],
+  "facts": [
+    "Thanksgiving is Thursday"
+  ],
+  "steps": [
+    {
+      "title": "Tournament in the morning",
+      "text": "Share the link in the team chat."
+    },
+    {
+      "title": "Family dinner at night",
+      "text": "Share it at the table too."
+    },
+    {
+      "title": "Fill the board",
+      "text": "Every square sold before Thursday."
+    }
+  ],
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}

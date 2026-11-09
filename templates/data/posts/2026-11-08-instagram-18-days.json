@@ -1,0 +1,25 @@
+{
+  "template": "feature",
+  "formats": [
+    "4x5"
+  ],
+  "eyebrow": "Two full weeks of selling",
+  "title_lines": [
+    "18 days to",
+    "Thanksgiving"
+  ],
+  "facts": [
+    "Thu Nov 26"
+  ],
+  "board": {
+    "top": "Lions",
+    "side": "Bears",
+    "filled": 0.5
+  },
+  "hook": "Two weekend tournaments, two practices, and a lot of grandparents with phones.",
+  "cta": {
+    "ask": "Start your Thanksgiving board",
+    "url": "SuperBowlPoolSite.com/thx"
+  },
+  "footnote": "Free to create. We never touch the money."
+}
