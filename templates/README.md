@@ -49,3 +49,11 @@ Fonts (Barlow and Barlow Condensed, open license) are in `fonts/`.
 - `thanksgiving-2026.json`: the five holiday games, linking SuperBowlPoolSite.com/thx
 
 Afternoon NFL times and networks come from `../schedule-2026.md` and can still change; check before posting.
+
+## Fresh set (Nov 2026)
+`fresh/fresh.py` renders a second visual family so the feed stops repeating the dark slate look:
+testimonial quote cards (`quote`), a "type your two teams" how-to built on the Basic Details form (`form`),
+a Thanksgiving rivalry program (`cover`, `program`) and a 50/50 call to action (`cta`).
+Edit `fresh/posts.py`, then run `python3 fresh/fresh.py` (or `python3 fresh/fresh.py quote-` for some).
+PNGs land in `/fresh` at the repo root. Extra open-license fonts: DM Serif Display and Caveat (in `fonts/`).
+Testimonials are quoted exactly from the site. Do not edit the quote text.
