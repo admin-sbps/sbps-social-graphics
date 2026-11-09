@@ -55,5 +55,5 @@ Afternoon NFL times and networks come from `../schedule-2026.md` and can still c
 testimonial quote cards (`quote`), a "type your two teams" how-to built on the Basic Details form (`form`),
 a Thanksgiving rivalry program (`cover`, `program`) and a 50/50 call to action (`cta`).
 Edit `fresh/posts.py`, then run `python3 fresh/fresh.py` (or `python3 fresh/fresh.py quote-` for some).
-PNGs land in `/fresh` at the repo root. Extra open-license fonts: DM Serif Display and Caveat (in `fonts/`).
+PNGs land in `/fresh` at the repo root. Extra open-license font: DM Serif Display (in `fonts/`).
 Testimonials are quoted exactly from the site. Do not edit the quote text.

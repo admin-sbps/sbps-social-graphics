@@ -29,8 +29,6 @@ FONT_FILES = [
     ("Barlow Condensed", 700, "normal", "BarlowCondensed-700.ttf", "truetype"),
     ("Barlow Condensed", 800, "normal", "BarlowCondensed-800.ttf", "truetype"),
     ("DM Serif Display", 400, "normal", "DMSerifDisplay-Regular.woff2", "woff2"),
-    ("DM Serif Display", 400, "italic", "DMSerifDisplay-Italic.woff2", "woff2"),
-    ("Caveat", 700, "normal", "Caveat-700.woff2", "woff2"),
 ]
 
 
@@ -55,7 +53,6 @@ body{font-family:Barlow,sans-serif;-webkit-font-smoothing:antialiased}
 .page{position:relative;overflow:hidden;width:100vw;height:100vh;display:flex;flex-direction:column}
 .serif{font-family:'DM Serif Display',serif;font-weight:400}
 .cond{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase}
-.hand{font-family:Caveat,cursive;font-weight:700}
 .eyebrow{font-family:'Barlow Condensed';font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:2.6rem}
 .url{font-weight:700;font-size:2.7rem;letter-spacing:.01em}
 .fine{font-weight:500;font-size:2.1rem;opacity:.75}
@@ -137,18 +134,14 @@ def quote_card(fmt, q):
 
 
 # ------------------------------------------------------------ type your teams
-ARROW = """<svg viewBox="0 0 200 120" class="arr {cls}"><path d="M8 20 C 70 10, 140 30, 180 95" fill="none" stroke="#ea580c" stroke-width="7" stroke-linecap="round"/>
-<path d="M150 88 L183 100 L188 66" fill="none" stroke="#ea580c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
-
-
 def form_card(fmt, d):
     css = """
 .page{background:#eef0fb;color:#17171f;padding:8rem 8rem 6rem;
- background-image:linear-gradient(#dfe2f6 2px,transparent 2px),linear-gradient(90deg,#dfe2f6 2px,transparent 2px);background-size:6rem 6rem}
+}
 .f9x16{padding:22rem 8rem 30rem}
 .eyebrow{color:#6366f1}
 h1{font-family:'DM Serif Display';font-weight:400;font-size:10rem;line-height:1;margin-top:2.4rem;letter-spacing:-.01em}
-h1 em{font-style:italic;color:#4f46e5}
+h1 em{font-style:normal;color:#4f46e5}
 .lede{font-size:3.5rem;font-weight:500;line-height:1.3;margin-top:3rem;color:#3b3a48;max-width:88rem}
 .card{background:#fff;border-radius:1.6rem;box-shadow:0 2.4rem 6rem rgba(23,23,31,.18);overflow:hidden;margin-top:6rem;width:76rem;position:relative}
 .card .hd{background:#0b1626;color:#fff;font-weight:600;font-size:3.2rem;padding:3.4rem 4.4rem}
@@ -157,8 +150,6 @@ h1 em{font-style:italic;color:#4f46e5}
 .lab:first-child{margin-top:0}
 .in{border:2px solid #d5dbe5;border-radius:.9rem;padding:1.9rem 2.4rem;font-size:3.2rem;font-weight:500;color:#333;width:62%}
 .in.hl{border:3px solid #22c55e;box-shadow:0 0 0 .9rem rgba(34,197,94,.22);font-weight:700;color:#0b1626;width:78%}
-.note{position:absolute;font-family:Caveat;font-weight:700;color:#ea580c;font-size:6rem;line-height:.95;transform:rotate(-4deg);text-align:center}
-.arr{position:absolute;width:15rem;height:9rem}
 .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end}
 .steps{display:flex;gap:2.4rem;font-weight:600;font-size:2.6rem;margin-top:auto;margin-bottom:4rem}
 .f2x3 h1{font-size:12rem}.f2x3 .lede{font-size:4rem}.f2x3 .card{width:88rem;margin-top:7rem}.f2x3 .in{font-size:3.6rem}.f2x3 .lab{font-size:3rem}.f2x3 .steps{font-size:2.7rem;gap:2rem}.steps div{white-space:nowrap}
@@ -176,23 +167,17 @@ h1 em{font-style:italic;color:#4f46e5}
 <div class="lab">Top Team Label</div><div class="in hl">{E(d['top'])}</div>
 <div class="lab">Left Team Label</div><div class="in hl">{E(d['left'])}</div>"""
     card = f"""<div class="card"><div class="hd">Basic Details</div><div class="bd">{labels}</div></div>"""
-    notes = """<div class="note" style="right:-1rem;top:{t1}">team one</div>
-<div class="note" style="right:-1rem;top:{t2}">team two</div>"""
     foot = f"""<div class="foot"><div><div class="url">{E(d.get('url_label', 'SuperBowlPoolSite.com/thx'))}</div>
 <div class="fine">Free to create. We never touch the money.</div></div></div>"""
     steps = """<div class="steps"><div><b>1</b>Create your contest</div><div><b>2</b>Open Basic Details</div><div><b>3</b>Type both teams</div></div>"""
     if fmt == "16x9":
         body = f"""<div class="colA"><div class="eyebrow">{E(d['eyebrow'])}</div><h1>{d['title']}</h1>
 <div class="lede">{E(d['lede'])}</div><div style="margin-top:auto">{foot}</div></div>
-<div style="position:relative;display:flex;align-items:center">{card}
-<div class="note" style="left:52rem;top:30.5rem;font-size:5rem">team one</div>
-<div class="note" style="left:56rem;top:45rem;font-size:5rem">team two</div></div>"""
+<div style="position:relative;display:flex;align-items:center">{card}</div>"""
     else:
         body = f"""<div class="eyebrow">{E(d['eyebrow'])}</div><h1>{d['title']}</h1>
 <div class="lede">{E(d['lede'])}</div>
-<div style="position:relative">{card}
-<div class="note" style="left:80rem;top:35rem">team<br>one</div>
-<div class="note" style="left:82rem;top:53rem">team<br>two</div></div>
+<div style="position:relative">{card}</div>
 {steps if fmt != '2x3' else steps}{foot}"""
     return page(fmt, body, css)
 
@@ -200,18 +185,17 @@ h1 em{font-style:italic;color:#4f46e5}
 # ------------------------------------------------------------ rivalry program
 PROGRAM_CSS = """
 .page{background:#f4efe4;color:#17171f;padding:0}
-.page:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 1.1rem,rgba(23,23,31,.025) 1.1rem 1.2rem);pointer-events:none}
 .band{background:#17171f;color:#f4efe4;padding:7rem 7rem 5rem;position:relative}
 .f9x16 .band{padding-top:20rem}
 .band .eyebrow{color:#f59e0b;font-size:2.4rem}
 .band h2{font-family:'Barlow Condensed';font-weight:800;text-transform:uppercase;font-size:11rem;line-height:.9;margin-top:1.6rem;letter-spacing:.005em}
-.band .tag{font-family:'DM Serif Display';font-style:italic;font-size:4rem;color:#c7c2b6;margin-top:1.4rem}
+.band .tag{font-family:'DM Serif Display';font-size:4rem;color:#c7c2b6;margin-top:1.4rem}
 .band .count{position:absolute;right:7rem;bottom:5rem;text-align:right;font-family:'Barlow Condensed';font-weight:700;font-size:2.6rem;letter-spacing:.2em;color:#c7c2b6}
 .band .count b{display:block;font-size:12rem;line-height:.85;letter-spacing:0;color:#f4efe4}
 .rows{padding:3rem 7rem 0;position:relative}
 .row{display:flex;align-items:baseline;justify-content:space-between;gap:2rem;border-bottom:2px solid rgba(23,23,31,.14);padding:2.05rem 0}
 .row .m{font-family:'DM Serif Display';font-size:4.15rem;line-height:1.05}
-.row .m i{font-style:italic;color:#ea580c;font-size:.8em;padding:0 .5rem}
+.row .m i{font-style:normal;color:#ea580c;font-size:.8em;padding:0 .9rem}
 .row .n{font-family:'Barlow Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:2.2rem;color:#4f46e5;white-space:nowrap}
 .sub{font-family:'Barlow Condensed';font-weight:800;text-transform:uppercase;letter-spacing:.18em;font-size:2.6rem;color:#ea580c;margin:3.4rem 0 .4rem}
 .pfoot{margin-top:auto;padding:0 7rem 5.5rem;display:flex;justify-content:space-between;align-items:flex-end;position:relative}
@@ -250,12 +234,12 @@ def program_cover(fmt, d):
 .f9x16 .cover{padding:22rem 8rem 28rem}
 .tk{border:3px solid #17171f;border-radius:1.4rem;padding:1.6rem 2.6rem;align-self:flex-start;font-family:'Barlow Condensed';font-weight:700;letter-spacing:.24em;font-size:2.6rem;text-transform:uppercase}
 .big{font-family:'DM Serif Display';font-size:15rem;line-height:.92;margin-top:5rem;letter-spacing:-.015em}
-.big em{color:#ea580c}
+.big em{color:#ea580c;font-style:normal}
 .lede{font-size:3.8rem;font-weight:500;line-height:1.3;margin-top:4.5rem;max-width:84rem;color:#3b3a48}
 .states{display:flex;gap:1.6rem;flex-wrap:wrap;margin-top:6rem}
 .states span{background:#17171f;color:#f4efe4;font-family:'Barlow Condensed';font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:2.7rem;padding:1.3rem 2.4rem;border-radius:99px}
 .swipe{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end}
-.swipe .hand{font-size:7rem;color:#4f46e5;transform:rotate(-3deg)}
+.swipe .hand{font-family:'Barlow Condensed';font-weight:700;letter-spacing:.24em;text-transform:uppercase;font-size:2.6rem;color:#4f46e5}
 """
     body = f"""<div class="cover"><div class="tk">{E(d['ticket'])}</div><div class="big">{d['title']}</div>
 <div class="lede">{E(d['lede'])}</div><div class="states">{''.join(f'<span>{E(s)}</span>' for s in d['states'])}</div>
@@ -269,7 +253,7 @@ def cta_card(fmt, d):
 .f9x16{padding:22rem 8rem 30rem}
 .eyebrow{color:#f59e0b}
 .big{font-family:'DM Serif Display';font-size:12.5rem;line-height:.95;margin-top:3rem;letter-spacing:-.01em}
-.big em{color:#22c55e;font-style:italic}
+.big em{color:#22c55e;font-style:normal}
 .split{display:flex;margin-top:7rem;border-radius:1.6rem;overflow:hidden;font-family:'Barlow Condensed';font-weight:800;text-transform:uppercase}
 .split div{flex:1;padding:4rem 3.6rem}
 .split .a{background:#6366f1;color:#fff}.split .b{background:#22c55e;color:#06210f}

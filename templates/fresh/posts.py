@@ -77,13 +77,13 @@ POSTS = [
     ("form-malden-medford", "form", ["4x5"], dict(
         eyebrow="Not just the NFL", title="Your town's game<br><em>counts too.</em>",
         lede="Create your contest, then type your two teams into Top Team Label and Left Team Label.",
-        contest="Thanksgiving Rivalry Squares", top="MALDEN", left="MEDFORD")),
+        contest="Rivalry Squares", top="MALDEN", left="MEDFORD")),
 
     # Thanksgiving rivalry program (Instagram carousel)
     ("rivalry-01-cover", "cover", ["4x5"], dict(
         ticket="Thanksgiving morning 2026", title="The other<br><em>Thanksgiving</em><br>games.",
         lede="Before the NFL kicks off, towns across the Northeast play rivalries that go back more than a century. 27 of them, by state.",
-        states=["Massachusetts", "Connecticut", "Rhode Island", "NY", "NJ", "PA", "Maine"], hand="swipe for yours")),
+        states=["Massachusetts", "Connecticut", "Rhode Island", "NY", "NJ", "PA", "Maine"], hand="Swipe for yours")),
     ("rivalry-02-massachusetts", "program", ["4x5"], dict(
         eyebrow="Thanksgiving rivalries", title="Massachusetts", tag="The heart of the tradition", count=11,
         rows=MA, page="2 / 6", css=".row{padding:1.55rem 0}")),
