@@ -39,10 +39,12 @@
     const cols = games.length > 10 ? 3 : (games.length <= 3 && FMT !== "4x5" ? 1 : 2);
     const rows = Math.ceil(games.length / cols);
     const cards = games.map((g, i) => {
-      const lonely = cols === 2 && games.length % 2 === 1 && i === games.length - 1;
+      const last = i === games.length - 1;
+      const lonely = cols === 2 && games.length % 2 === 1 && last;
+      const mid = cols === 3 && games.length % 3 === 1 && last;
       const line = `${esc(g.away)} ${esc(g.away_score)} &middot; ${esc(g.home)} ${esc(g.home_score)}`;
       return `
-        <div class="game ${lonely ? "span" : ""}">
+        <div class="game ${lonely ? "span" : ""}${mid ? " mid" : ""}">
           <div class="game-top"><span class="label">${esc(g.label || "Final")}</span><span class="line">${line}</span></div>
           <div class="tiles">
             <div class="tile"><div class="team">${esc(g.away)}</div><div class="digit">${lastDigit(g.away_score)}</div></div>
